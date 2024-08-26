@@ -1,0 +1,14 @@
+@import url("./css/header.css");
+@import url("./css/main.css");
+@import url("./css/collection.css");
+@import url("./css/footer.css");
+/*UNIVERSAL=================================*/
+
+
+*{
+    margin: 0px; 
+    padding: 0px;
+    color: white;
+}
+
+
