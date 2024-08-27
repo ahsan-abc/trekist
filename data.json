@@ -1,203 +1,243 @@
 [
-    {
-     "most_popular":   [{
-    "name":"Sabrina 2 EP",
-    "price":11895.00,
-    "size":[5,6,7],
-    "description":"best shoes",
-    "type":"sports",
-    "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/882c21ec-b405-4e45-92d3-111a108e0cf0/SABRINA+2+EP.png",
-    "profile_image" :["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fc9dd308-177d-4cb2-aae0-4d19674885e1/SABRINA+2+EP.png",
-                      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f7971c4-5b30-4b97-b421-913b5d333659/SABRINA+2+EP.png",
-                      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca37f2a2-4d61-4b13-9efe-dda6ca0c3ddb/SABRINA+2+EP.png",
-                      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/00169256-9481-435c-b4cb-da88667cbdc4/SABRINA+2+EP.png",
-                      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d337bcd-6a85-4f8b-8290-5e578bbd2684/SABRINA+2+EP.png"]
-   }
-     ,
-     {
-        "name":"Trekist Precision ",
-        "price":5695.00,
-        "size":[5,6,7],
-        "description":"yes sir",
-        "type":"sports",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/88d570a3-17d5-4a55-918a-00469f63ae81/NIKE+PRECISION+VII+EASYON+OLY.png",
-        "profile_image":["","","","",""]
+  {
+    "most_popular": [
+      {
+        "name": "Sabrina 2 EP",
+        "price": 11895.0,
+        "size": [5, 6, 7],
+        "description": "best shoes",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/882c21ec-b405-4e45-92d3-111a108e0cf0/SABRINA+2+EP.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fc9dd308-177d-4cb2-aae0-4d19674885e1/SABRINA+2+EP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f7971c4-5b30-4b97-b421-913b5d333659/SABRINA+2+EP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca37f2a2-4d61-4b13-9efe-dda6ca0c3ddb/SABRINA+2+EP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/00169256-9481-435c-b4cb-da88667cbdc4/SABRINA+2+EP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d337bcd-6a85-4f8b-8290-5e578bbd2684/SABRINA+2+EP.png"
+        ]
+      },
+      {
+        "name": "Trekist Ultrafly ",
+        "price": 21695,
+        "size": [5, 6, 7],
+        "description": "Manifest your mountainous best, when the trail ahead is skiddy and uncertain. Our all-new championship trail-racing shoe melds our best speed components from the running world with what you need to plant your flag first at the finishing line. It offers peak performance, sleek speed and endurance for those who want to summit nature's playground.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b10b5561-ff15-48a2-8fcb-e24daccc73a0/NIKE+ZOOMX+ULTRAFLY+TRAIL.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7a7d32fe-76ec-4ab6-9d7c-d3a38068917f/NIKE+ZOOMX+ULTRAFLY+TRAIL.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5e3c104a-a7b1-4e44-ac92-4c043a9edfc1/NIKE+ZOOMX+ULTRAFLY+TRAIL.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32458e9c-f124-4afb-82c5-c89ebb9146a6/NIKE+ZOOMX+ULTRAFLY+TRAIL.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0e47135-3a94-499c-ac2b-01527553079e/NIKE+ZOOMX+ULTRAFLY+TRAIL.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4213ae7a-c17d-4f7d-8d79-f18a97079b26/NIKE+ZOOMX+ULTRAFLY+TRAIL.png"
+        ]
+      },
+      {
+        "name": "Trekist Vaporfly 2",
+        "price": 20695,
+        "size": [5, 6, 7, 8, 9],
+        "description": "Catch 'em if you can. Giving you race-day speed to conquer any distance, the Nike Vaporfly 3 is made for the chasers, the racers and the elevated pacers who can't turn down the thrill of the pursuit. We reworked the leader of the super shoe pack and tuned the engine underneath to help you chase personal bests from a 10K to marathon. From elite runners to those new to racing, this versatile road-racing workhorse is for those who see speed as a gateway to more miles and more seemingly uncatchable highs.",
+        "type": "sneaker",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9fe70154-e4bb-4bcc-9cf0-2efda240916c/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1dab2f7a-bbee-4c23-b899-8e24a356763d/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d24ed8d-2bb6-457a-a4d2-15d2fb2fff17/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f1cb61d5-29fd-41a5-b669-e51eaa08c9f3/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0a1ce54-2bd8-411b-9bb5-a3de0b6d767c/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a1de63d6-4332-49b1-a2b2-76e8f34391b8/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png"
+        ]
+      },
+      {
+        "name": "Trekist Pegasus Dow",
+        "price": 11895,
+        "size": [5, 6, 7, 8],
+        "description": "Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole. Plus, improved engineered mesh on the upper decreases weight and increases breathability.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7358b1ee-dec1-46a2-9e49-0526c68194dd/W+AIR+ZOOM+PEGASUS+41.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c2c74dab-3146-4b38-a9c3-e904e545a7c7/W+AIR+ZOOM+PEGASUS+41.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b361e2b-11ae-4fe2-b246-aba2542b0355/W+AIR+ZOOM+PEGASUS+41.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/008281db-2dfa-4933-8b15-8ce317c5f72b/W+AIR+ZOOM+PEGASUS+41.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/35c2de43-bd6e-48bf-bc2e-aea70ce2112f/W+AIR+ZOOM+PEGASUS+41.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7bd11b83-95c2-491c-a222-3ad3cd1da344/W+AIR+ZOOM+PEGASUS+41.png"
+        ]
+      }
+    ],
+    "mostsell_formal": [
+      {
+        "name": "Trekist Air Force 1",
+        "price": 10795.0,
+        "size": [5, 6, 7, 8],
+        "description": "The radiance lives on in the Nike Air Force 1 '07, the basketball original that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/AIR+FORCE+1+%2707.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3cc96f43-47b6-43cb-951d-d8f73bb2f912/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/33533fe2-1157-4001-896e-1803b30659c8/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a0a300da-2e16-4483-ba64-9815cf0598ac/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/82aa97ed-98bf-4b6f-9d0b-31a9f907077b/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ef92df87-6098-4fa5-bc88-7107492febcf/AIR+FORCE+1+%2707.png"
+        ]
+      },
+      {
+        "name": "Air Trekist mid",
+        "price": 5000,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9e0c69fc-89df-474a-b5e5-e68126cbb94e/nikecourt-royale-2-next-nature-shoes-RRcr20.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3cc96f43-47b6-43cb-951d-d8f73bb2f912/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/33533fe2-1157-4001-896e-1803b30659c8/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a0a300da-2e16-4483-ba64-9815cf0598ac/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/82aa97ed-98bf-4b6f-9d0b-31a9f907077b/AIR+FORCE+1+%2707.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ef92df87-6098-4fa5-bc88-7107492febcf/AIR+FORCE+1+%2707.png"
+        ]
+      },
+      {
+        "name": "Trekist Water Force",
+        "price": 12578,
+        "size": [5, 6, 7, 8],
+        "description": "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go. This version brings an all-black design with perforated leather, making it durable, breathable and easy to style.",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a9a19a2-0915-4b69-84e2-02dc3a735c1d/AIR+FORCE+1+SP.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/777c9d18-2c2e-4b72-8244-70dce5177b1f/AIR+FORCE+1+SP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/858f9194-f953-404e-a11d-3b680cdea91a/AIR+FORCE+1+SP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9949ff5-b536-41c0-a9bf-2440c3ef44be/AIR+FORCE+1+SP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ae1e9022-79fc-4f4a-ad62-d2bc9a651f43/AIR+FORCE+1+SP.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/db39076f-cdf2-4557-bf64-b4b5a899578e/AIR+FORCE+1+SP.png"
+        ]
+      },
+      {
+        "name": "Trekist Tanjun EasyOn",
+        "price": 3145,
+        "size": [5, 6, 7, 8],
+        "description": "Forget the hype—the Tanjun brings you simplicity at its best. This version features Nike EasyOn technology for a hands-free experience. The flexible heel collapses when you step in then snaps back into place, making it easy to slip the shoe on and off. Plus, the light and airy design is a go-to for daily wear.",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/830d4c7b-e9b1-4f4a-870e-8c9c195555b9/NIKE+TANJUN+FLYEASE.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb15d48e-0e21-4608-8c9a-200b76bafe74/NIKE+TANJUN+FLYEASE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1febe0bf-2581-4bb7-98d0-87e73c4f64f7/NIKE+TANJUN+FLYEASE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/71127623-3ebd-4aaf-a16c-28411707cc2c/NIKE+TANJUN+FLYEASE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f55c6d0e-e95e-4780-9883-99ac0b5f811c/NIKE+TANJUN+FLYEASE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e43745de-a45d-434a-827f-c1dba08e2e3a/NIKE+TANJUN+FLYEASE.png"
+        ]
+      }
+    ],
 
-     },
-     {
-        "name":"Trekist Ultrafly",
-        "price":14995.00,
-        "size":[5,6,7,8,9],
-        "description":"yes sir",
-        "type":"sport",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b10b5561-ff15-48a2-8fcb-e24daccc73a0/NIKE+ZOOMX+ULTRAFLY+TRAIL.png"
-
-
-     },
-     {
-        "name":"Trekist Dunk Low",
-        "price":8295,
-        "size":[5,6,7,8],
-        "description":"yes sir",
-        "type":"casual",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png"
-
-     }
-
-        ],
-        "mostsell_formal":
-         [{
-            "name":"Trekist Air Force 1",
-            "price":10795.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"formal",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9fa009a1-7b18-47a7-8e17-2c83bb52dd61/air-force-1-07-lv8-shoes-fJ2txz.png"
-
-
-         },
-         {
-            "name":"Air Trekist mid",
-            "price":5000,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"formal",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9e0c69fc-89df-474a-b5e5-e68126cbb94e/nikecourt-royale-2-next-nature-shoes-RRcr20.png"
-
-         },
-         {
-            "name":"Trekist Air Force ",
-            "price":95678,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"formal",
-           "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7b81405d-ee37-4208-918d-066c85daa6b4/air-force-1-sp-shoes-T3G0Sg.png"
-
-         },
-         {
-            "name":"Trekist Field General",
-            "price":10257.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sneakers",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png"
-
-         }],
-
-
-        "mostsell_sneakers":
-        [ {
-            "name":"Trekist Court Zoom",
-            "price":15595,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sneakers",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/704b8728-06c2-4897-b113-19da660c651e/nikecourt-air-zoom-vapor-11-electric-hard-court-tennis-shoes-sqt8W4.png"
-
-         },
-         {
-            "name":"Trekist G.T Hustle 3",
-            "price":18095.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sneakers",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8b70d7e-a3b7-42f2-b3ef-b0db136d7175/gt-hustle-3-ep-electric-basketball-shoes-VMBvsP.png"
-
-         },
-         {
-            "name":"Trekist Air Max Dn",
-            "price":15995,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sneakers",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b5f86ee-d9eb-4e78-89a3-4f3978503ce2/air-max-dn-shoes-PWPh7h.png"
-
-         },
-         {
-            "name":"Trekist P-6000 ",
-            "price":10795.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sneakers",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/71521bad-30ec-4ffb-8776-9deb56556c96/p-6000-shoes-kGDH2V.png"
-
-         }],
-         "mostsell_casual":
-         [{
-            "name":"Trekist Fes 12P",
-            "price":8440,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"wedding",
-        "image":"https://m.media-amazon.com/images/I/41V92G6vNXL._AC_UL480_FMwebp_QL65_.jpg"
-
-         },
-         {
-            "name":"Trekist Fes Ex51",
-            "price":4490,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"wedding",
-        "image":"https://m.media-amazon.com/images/I/61ViBfLoRPL._AC_UL480_FMwebp_QL65_.jpg"
-
-         },
-         {
-            "name":"Trekist Tanny Et61",
-            "price":15990,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"wedding",
-        "image":"https://m.media-amazon.com/images/I/81N52zRiSYL._AC_UL480_FMwebp_QL65_.jpg"
-
-         },
-         {
-            "name":"Trekist Royal K11 ",
-            "price":6490,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"wedding",
-        "image":"https://m.media-amazon.com/images/I/81powtMZO8L._AC_UL480_FMwebp_QL65_.jpg"
-
-         }],
-         "mostsell_sports":
-         [{
-            "name":"Trekist Waffle nav",
-            "price":7095.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sports",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b554fae8-8ccb-43d1-a7e7-c4299f951338/waffle-nav-shoes-4j1X82.png"
-
-         },
-         {
-            "name":"Trekist Mercurial",
-            "price":5995.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sports",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82182873-0ecc-4b73-898b-62c1d745e95e/mercurial-superfly-10-club-mg-high-top-football-boot-rP4Dg2.png"
-
-         },
-         {
-            "name":"Trekist Motiva ",
-            "price":9207.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sports",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9be8ca12-4aa8-4af8-9308-82ea238326d1/motiva-walking-shoes-Fjzkq7.png"
-
-         },
-         {
-            "name":"Trekist Vapor 15",
-            "price":8067.00,
-            "size":[5,6,7,8],
-            "description":"yes sir",
-            "type":"sports",
-        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f32e169d-aeb9-450e-9eec-415e7626c888/vapor-15-academy-mercurial-dream-speed-tf-low-top-football-shoes-Tg5mK9.png"
-
-         }]
-
-
-
-    }
+    "mostsell_sneakers": [
+      {
+        "name": "Trekist Court Zoom",
+        "price": 15595,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/704b8728-06c2-4897-b113-19da660c651e/nikecourt-air-zoom-vapor-11-electric-hard-court-tennis-shoes-sqt8W4.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist G.T Hustle 3",
+        "price": 18095.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8b70d7e-a3b7-42f2-b3ef-b0db136d7175/gt-hustle-3-ep-electric-basketball-shoes-VMBvsP.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Air Max Dn",
+        "price": 15995,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b5f86ee-d9eb-4e78-89a3-4f3978503ce2/air-max-dn-shoes-PWPh7h.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist P-6000 ",
+        "price": 10795.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/71521bad-30ec-4ffb-8776-9deb56556c96/p-6000-shoes-kGDH2V.png",
+        "profile_image": ["", "", "", "", ""]
+      }
+    ],
+    "mostsell_casual": [
+      {
+        "name": "Trekist Fes 12P",
+        "price": 8440,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "wedding",
+        "image": "https://m.media-amazon.com/images/I/41V92G6vNXL._AC_UL480_FMwebp_QL65_.jpg",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Fes Ex51",
+        "price": 4490,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "wedding",
+        "image": "https://m.media-amazon.com/images/I/61ViBfLoRPL._AC_UL480_FMwebp_QL65_.jpg",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Tanny Et61",
+        "price": 15990,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "wedding",
+        "image": "https://m.media-amazon.com/images/I/81N52zRiSYL._AC_UL480_FMwebp_QL65_.jpg",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Royal K11 ",
+        "price": 6490,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "wedding",
+        "image": "https://m.media-amazon.com/images/I/81powtMZO8L._AC_UL480_FMwebp_QL65_.jpg",
+        "profile_image": ["", "", "", "", ""]
+      }
+    ],
+    "mostsell_sports": [
+      {
+        "name": "Trekist Waffle nav",
+        "price": 7095.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b554fae8-8ccb-43d1-a7e7-c4299f951338/waffle-nav-shoes-4j1X82.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Mercurial",
+        "price": 5995.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82182873-0ecc-4b73-898b-62c1d745e95e/mercurial-superfly-10-club-mg-high-top-football-boot-rP4Dg2.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Motiva ",
+        "price": 9207.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9be8ca12-4aa8-4af8-9308-82ea238326d1/motiva-walking-shoes-Fjzkq7.png",
+        "profile_image": ["", "", "", "", ""]
+      },
+      {
+        "name": "Trekist Vapor 15",
+        "price": 8067.0,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f32e169d-aeb9-450e-9eec-415e7626c888/vapor-15-academy-mercurial-dream-speed-tf-low-top-football-shoes-Tg5mK9.png",
+        "profile_image": ["", "", "", "", ""]
+      }
+    ]
+  }
 ]

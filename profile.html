@@ -1,68 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/profile.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--header============================-->
     <header>
-        <div>
-            <h1>
-
-                Trekist</h1>
-        </div>
-        <div>
-            <nav>
-                <li><a href="./index.html" style="text-decoration: none; color: white;">Home</a></li>
-                <li>Contact</li>
-                <li>About</li>
-                <li>FAQ</li>
-    
-            </nav>
-        </div>  
+      <div>
+        <h1>Trekist</h1>
+      </div>
+      <div>
+        <nav>
+          <li>
+            <a href="./index.html" style="text-decoration: none; color: white"
+              >Home</a
+            >
+          </li>
+          <li>Contact</li>
+          <li>About</li>
+          <li>FAQ</li>
+        </nav>
+      </div>
     </header>
-<!--profile===========================-->
-    <div id = "profile">
-        <div id ="profile_image">
-            <img class="slider" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="z-index:2 ;">
-            <img class="slider" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8b70d7e-a3b7-42f2-b3ef-b0db136d7175/gt-hustle-3-ep-electric-basketball-shoes-VMBvsP.png" style="z-index: -1;" alt="">
-            <img class="slider" src="https://m.media-amazon.com/images/I/41V92G6vNXL._AC_UL480_FMwebp_QL65_.jpg" alt="" style="z-index:-1 ;">
-            <img class="slider" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/71521bad-30ec-4ffb-8776-9deb56556c96/p-6000-shoes-kGDH2V.png" style="z-index: -1;" alt="">
-            <img class="slider" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b5f86ee-d9eb-4e78-89a3-4f3978503ce2/air-max-dn-shoes-PWPh7h.png" alt="" style="z-index:-1 ;">
-            <div id="slider_navigation">
-                <div class="navigation_button" onclick="left_slider()">	&#8249;</div>
-                 
-                <div class="navigation_button" onclick="right_slider()">	&#8250;</div>
-            </div>
-            <div id="slider_indicator">  
-                <img  class="slider_indicator_image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="height: 80%; background-color: black;  " >               
-                <img class="slider_indicator_image"  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="height: 80%; background-color: black;  " >               
-                <img class="slider_indicator_image"  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="height: 80%; background-color: black;  " >               
-                <img class="slider_indicator_image"  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="height: 80%; background-color: black;  " >               
-                <img class="slider_indicator_image"  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1428a1bf-5953-4554-a4cd-537df01d8b74/field-general-82-sp-shoes-5jdKkt.png" alt="" style="height: 80%; background-color: black;  " >               
-            </div>
+    <!--profile===========================-->
+    <div id="profile">
+      <div id="profile_image">
+        <img
+          class="slider"
+          src="./source/load_profile_image.png"
+          alt=""
+          style="z-index: 2"
+        />
+        <img
+          class="slider"
+          src="./source/load_profile_image.png"
+          style="z-index: -1"
+          alt=""
+        />
+        <img
+          class="slider"
+          src="./source/load_profile_image.png"
+          alt=""
+          style="z-index: -1"
+        />
+        <img
+          class="slider"
+          src="./source/load_profile_image.png"
+          style="z-index: -1"
+          alt=""
+        />
+        <img
+          class="slider"
+          src="./source/load_profile_image.png"
+          alt=""
+          style="z-index: -1"
+        />
+        <div id="slider_navigation">
+          <div class="navigation_button" onclick="left_slider()">&#8249;</div>
+
+          <div class="navigation_button" onclick="right_slider()">&#8250;</div>
         </div>
+        <div id="slider_indicator">
+          <img
+            class="slider_indicator_image"
+            src="./source/load_profile_image.png"
+            alt=""
+            style="height: 80%; background-color: black"
+          />
+          <img
+            class="slider_indicator_image"
+            src="./source/load_profile_image.png"
+            alt=""
+            style="height: 80%; background-color: black"
+          />
+          <img
+            class="slider_indicator_image"
+            src="./source/load_profile_image.png"
+            alt=""
+            style="height: 80%; background-color: black"
+          />
+          <img
+            class="slider_indicator_image"
+            src="./source/load_profile_image.png"
+            alt=""
+            style="height: 80%; background-color: black"
+          />
+          <img
+            class="slider_indicator_image"
+            src="./source/load_profile_image.png"
+            alt=""
+            style="height: 80%; background-color: black"
+          />
+        </div>
+      </div>
 
-        <div id ="profile_price"></div>
-
+      <div id="profile_price"></div>
     </div>
 
-<!--reviwes===========================-->
-<!--suggestion==========================-->
-<script src="./profile.js" type="text/javascript"></script>
-  
-
-
-    
-</body>
+    <!--reviwes===========================-->
+    <!--suggestion==========================-->
+    <script src="./profile.js" type="text/javascript"></script>
+  </body>
 </html>
