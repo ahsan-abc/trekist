@@ -14,6 +14,18 @@
 <link rel="icon" type="image/x-icon" href="./icon.ico">
 </head>
 <body>
+
+
+
+ <!--menu============================-->
+
+ <div id="menu">
+    <button onclick="menu_switch()">X</button>
+    <div>order</div>
+    <div>like</div>
+    <div>cart</div>
+
+ </div>
  <!--header============================-->
     <header>
         <div>
@@ -23,10 +35,10 @@
         </div>
         <div>
             <nav>
-                <li><a href="./index.html" style="text-decoration: none; color: white;">Home</a></li>
-                <li>Contact</li>
-                <li>About</li>
-                <li>FAQ</li>
+                <li><a href="./index.html" >Home</a></li>
+                <li><a href="#collection" >Collection</a></li>
+                <li><a href="#about" >About</a></li>
+                <li onclick="menu_switch()"><img src="./source/menu_icon.png" alt=""></li>
     
             </nav>
         </div>
@@ -239,7 +251,7 @@
 
 <!--footer====================-->     
 
-<footer>
+<footer id="about">
     <p style="color: black;">this is college project  , a demo website may contains copyrights things</p>
     <a href="profile.html" style="width: 200px; height: 200px; background-color: red;">hello</a>
 </footer>

@@ -1,0 +1,36 @@
+#menu {
+  width: 300px;
+  height: 100rem;
+  background-color: rgb(255, 255, 255);
+  right: -0px;
+
+  position: fixed;
+  display: none;
+  transition-duration: 20s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  flex-direction: column;
+  z-index: 3;
+}
+
+#menu > button {
+  margin: 10px 0;
+  width: 40px;
+  height: 20px;
+  color: red;
+  background-color: white;
+  border: 0;
+  font-size: 20px;
+}
+
+#menu > div {
+  color: black;
+  width: 50%;
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+  padding: 10px 0;
+  border: 2px red solid;
+  font-family: "poppins";
+}

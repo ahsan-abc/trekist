@@ -143,3 +143,15 @@ async function collection_load() {
 }
 
 collection_load();
+
+let switch_ = 0;
+
+function menu_switch() {
+  if (switch_ == 0) {
+    document.getElementById("menu").style.display = "flex";
+    switch_ = 1;
+  } else {
+    document.getElementById("menu").style.display = "none";
+    switch_ = 0;
+  }
+}
