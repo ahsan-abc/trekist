@@ -1,18 +1,17 @@
-#collection_heading
-{
-  padding-top: 50px;
+#collection_heading {
+  padding: 50px 0;
   width: 100%;
   height: 50px;
   background-color: rgb(230, 230, 230);
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
   align-items: center;
   text-align: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-#collection
-{
+#collection {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -20,91 +19,79 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(230, 230, 230);
-
 }
 
-.box
-{
+.box {
   display: inline-block;
-    width: 300px;
+  width: 300px;
   height: 400px;
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.925);
-  
 }
 
-.heading
-{
-   margin: 0px 16px;
-   margin-top:5%;
-   height: 5%;
-   color: rgb(0, 0, 0);
-   font-size: medium;
-    font-family:   Verdana, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-  
+.heading {
+  margin: 0px 16px;
+  margin-top: 5%;
+  height: 5%;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
-.container
-{
+.container {
   height: 90%;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-
 }
 
-.sub_box
-{
-  
+.sub_box {
   display: inline-block;
   height: 45%;
   width: 40%;
   border: 1px rgb(255, 255, 255) solid;
- background-color: rgb(255, 255, 255);
- 
+  background-color: rgb(255, 255, 255);
 }
 
-.sub_box:hover
-{
+.sub_box:hover {
   transform: scale(1.06);
-  transition-property:"scale" ;
+  transition-property: "scale";
   transition-duration: 0.4s;
   box-shadow: 0.1px 0.1px 0.5px 0.5px rgb(208, 208, 208);
-
 }
 
-.collection_image{
-
+.collection_image {
   display: inline-block;
   width: 100%;
 }
 
-
-
-.collection_name_box
-{
+.collection_name_box {
   color: black;
   height: 30px;
   width: 100%;
   margin-left: 3px;
 }
-.collection_name
-{
+.collection_name {
   font-size: 11.4px;
   color: rgb(107, 107, 107);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.collection_price
-{
+.collection_price {
   font-size: 13px;
   font-size: small;
   color: rgb(0, 0, 0);
-font-family: "poppins";
-margin-bottom: 3px;
-letter-spacing: 0.5px;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 3px;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 600px) {
+  #collection_heading {
+    font-size: 50px;
+    padding: 35px 0px;
+  }
 }
