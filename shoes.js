@@ -14,6 +14,7 @@ function display_shoes(shoes, all, type) {
   right.innerHTML = "";
   if (shoes == undefined || shoes.length == 0) {
     console.log("undefined");
+    right.innerHTML = `<h1 style="font-size: 40px; color:rgb(107, 107, 107);">NO DATA</h1>`;
   } else {
     for (let i = 0, j = 0; i < shoes.length; i++) {
       if (all == true || type == shoes[i].type) {
@@ -392,4 +393,12 @@ let s = [
     ],
   },
 ];
-display_shoes(s, false, "casual");
+display_shoes(s, true);
+
+function filter_apply(type) {
+  if (type != "all") {
+    display_shoes(s, false, type);
+  } else {
+    display_shoes(s, true);
+  }
+}
