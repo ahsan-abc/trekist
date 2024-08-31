@@ -310,6 +310,125 @@
           "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0c1ac2ac-aa3b-44c4-a32f-849649416912/NIKE+INTERACT+RUN+SE.png"
         ]
       }
+    ],
+    "shoes":
+    [
+      {
+        "name": "Trekist Run 15",
+        "price": 8067,
+        "size": [5, 6, 7, 8],
+        "description": "yes sir",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f6fbbd95-9ea0-41e6-a412-c70903934192/NIKE+INTERACT+RUN+SE.png",
+        "profile_image": [
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a40bc078-7aa9-4d4e-bb86-8dd4c660da4e/NIKE+INTERACT+RUN+SE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ed2e0ec5-edeb-4067-aa4e-cec0854c1156/NIKE+INTERACT+RUN+SE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a1ba0490-3657-4570-ac8b-06e1e1a269d8/NIKE+INTERACT+RUN+SE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf61b76e-b476-4d49-8805-e99d93b599d3/NIKE+INTERACT+RUN+SE.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0c1ac2ac-aa3b-44c4-a32f-849649416912/NIKE+INTERACT+RUN+SE.png"
+        ]
+      } ,
+    
+      {
+        "name": "Promo Exclusion",
+        "price":14995 ,
+        "size": [5, 6, 7, 8],
+        "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and easy styling. The richly layered design includes textiles, leather and plastic accents that come together to make one of the coolest sneakers of the season.",
+        "type": "special",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67363841-dd18-4134-bf4d-889889125d65/NIKE+ZOOM+VOMERO+5.png",
+        "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f5bd7685-c5dd-4927-8e4d-6e32aa22eb34/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d884868c-463b-46b9-b19c-a61f3ae40ebb/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dde74758-cc59-4c27-a13c-a5e9084723ea/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aea10894-61a8-45ff-a85e-23db8930a5bb/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/66973f71-c600-426e-8b51-4a1480717967/NIKE+ZOOM+VOMERO+5.png"  ]
+      } ,
+
+      {
+        "name": "Trekist zoom vomero",
+        "price": 14995,
+        "size": [5, 6, 7, 8],
+        "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and classic early 2000s aesthetics. The richly layered design combines breathable and durable materials with the comfort of Air Zoom cushioning for one of the coolest sneakers of the season.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1f31a5fd-9f59-4331-8bd1-c8fabe073b4e/NIKE+ZOOM+VOMERO+5.png",
+        "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3958bd30-b8ad-438f-a009-6c5610ff42fa/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ed3b0fdb-3208-4f54-b59c-11a6d7f7b4e7/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5acb2b1d-b303-4905-836f-6f151993709d/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8d2623c-148b-4227-8993-6d43fe0f6554/NIKE+ZOOM+VOMERO+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3ff1477e-b613-4758-9940-7ec5ac1aa24d/NIKE+ZOOM+VOMERO+5.png"  ]
+      }, 
+      
+      {
+        "name": "Trekist Infinity",
+        "price": 15595,
+        "size": [5, 6, 7, 8],
+        "description": "Maximum cushioning provides elevated comfort for everyday runs. Experience a soft, rocker-shaped platform made with new ReactX foam underfoot, and an ultra-comfortable collar and tongue for a snug feel.",
+        "type": "sports",
+        "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fbe575e0-b8c7-45ea-8a71-fa20ae683c06/NIKE+REACTX+INFINITY+RUN+4+OLY.png",
+        "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9316648-fbd5-4087-b3e4-d6da064c27d6/NIKE+REACTX+INFINITY+RUN+4+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/99e4c93a-69ff-4ee7-a4a2-326234a6119e/NIKE+REACTX+INFINITY+RUN+4+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23575e77-52c0-4a24-aa3d-754353843ab2/NIKE+REACTX+INFINITY+RUN+4+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4fbb6b7a-08c1-4251-8b74-69bd798268f0/NIKE+REACTX+INFINITY+RUN+4+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ec92f9df-8d2d-44ae-ae71-e5e5cb69fc28/NIKE+REACTX+INFINITY+RUN+4+OLY.png"  ]
+      } ,
+    
+      {
+        "name": "Trekist GT",
+        "price":18095 ,
+        "size": [5, 6, 7, 8],
+        "description": "How high do you want to fly? Get off the ground quicker in a design that helps you hover and hold your own in the air when the action goes vertical. If you're looking to add lift to your jumper or sky for rebounds, this shoe can add a springy element to your game. The bounce is unlike anything you've felt before and the landing is cushioned, helping you leap skywards once you hit the ground.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/890d1a70-dccc-46f3-9c92-1f7c340d2a6b/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png",
+        "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/837782ce-cb6c-479d-9622-6663c40085ac/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2bf27da6-2c7e-41ca-ac1d-17207d897c06/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d13f6a0c-20b6-461b-8b0c-e13c88a1cf61/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4396b6d4-6feb-4ad9-b71e-880d19e36328/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c2b4b78-e622-449f-bf9a-ff954a86955c/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png"  ]
+      },
+      
+      {
+        "name": "Trekist Giannis Freak",
+        "price":11895 ,
+        "size": [5, 6, 7, 8],
+        "description": "Giannis needs a shoe to dominate the modern positionless game. That's why we've upgraded the traction pattern on the Giannis Freak 6. The outsole helps him stop in an instant to make all those game-changing plays. And when he's filling up the stat sheet, the Air Zoom cushioning helps keep him fresh for four quarters. With its extra-durable rubber outsole, this version gives you traction for outdoor courts.",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/daad25ea-6b35-4809-b789-fccaa588588a/GIANNIS+FREAK+6+EP.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d21df447-7723-408c-8439-36b7790a1098/GIANNIS+FREAK+6+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c007d69b-724a-403b-9969-320fe8c13307/GIANNIS+FREAK+6+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d5e9cda6-1041-474c-bd5e-96f6553d53d1/GIANNIS+FREAK+6+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52133830-c6ab-4620-86eb-7b91baaf2540/GIANNIS+FREAK+6+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7be7a488-277f-4595-ba52-e987fbd03d58/GIANNIS+FREAK+6+EP.png"]
+      } ,
+
+      
+      {
+        "name": "Trekist Giannis Freak 6",
+        "price":11895 ,
+        "size": [5, 6, 7, 8],
+        "description": "Giannis needs a shoe to dominate the modern positionless game. That's why we've upgraded the traction pattern on the Giannis Freak 6. The herringbone outsole helps him stop in an instant to make all those game-changing plays. And when he's filling up the stat sheet, the Air Zoom cushioning helps keep him fresh for four quarters. With its extra-durable rubber outsole, this version gives you traction for outdoor courts.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f9adcbc4-2bd2-4756-a6fe-db4e2be7f671/GIANNIS+FREAK+6+TB+EP.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b882fc40-c2a9-40b4-baaf-18b3fad247ea/GIANNIS+FREAK+6+TB+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7b575092-1625-434f-b63a-175e8273d8eb/GIANNIS+FREAK+6+TB+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f3017c9-df97-4863-9907-e0ded90be209/GIANNIS+FREAK+6+TB+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d33afc87-ea48-46bc-9296-9e9bd68ed2ee/GIANNIS+FREAK+6+TB+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/861f4220-dd36-4848-a5b2-f1dd09e73fd9/GIANNIS+FREAK+6+TB+EP.png"]
+      } ,
+
+     
+      
+      
+      {
+        "name": "Trekist Air Vapor Max ",
+        "price":19695,
+        "size": [5, 6, 7, 8],
+        "description": "Have you ever walked on Air? Step into the Air VaporMax 2023 to see how it's done. The innovative tech is revealed through the perforated sockliner (pull it out to see more). And the stretchy Flyknit material is seamless and breathable, creating a shoe that weighs less than any other model with this Air unit so far.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b8f99c5-f665-477f-8eff-fc44afef0aa5/NIKE+COURT+VISION+MID+NN.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/98aead6e-88f7-4d0f-9f55-9fb0708ce078/AIR+VAPORMAX+2023+FK+SE.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3c38444e-c4ec-4ac5-b668-fc283810a064/AIR+VAPORMAX+2023+FK+SE.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aebd34e6-c666-4bbc-9fc9-137c493bfb9b/AIR+VAPORMAX+2023+FK+SE.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7a1806f1-3991-4c45-9daf-2fd019ba6bcc/AIR+VAPORMAX+2023+FK+SE.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e7d9436c-aa59-420a-8d22-534614fa8432/AIR+VAPORMAX+2023+FK+SE.png"]
+      } ,
+      
+      
+      {
+        "name": "Trekist Giannis FZ",
+        "price":12795 ,
+        "size": [5, 6, 7, 8],
+        "description": "Giannis needs a shoe to dominate the modern positionless game. That's why we've upgraded the traction pattern on the Giannis Freak 6. The outsole helps him stop in an instant to make all those game-changing plays. And when he's filling up the stat sheet, the Air Zoom cushioning helps keep him fresh for four quarters. With its extra-durable rubber outsole, this version gives you traction for outdoor courts. This special edition pays tribute to Giannis's dad.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cad08379-10fd-45a9-98db-5689453f8353/GIANNIS+FREAK+6+NRG+EP.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83498b62-6a3d-4db5-95d0-6d168d5df6f2/GIANNIS+FREAK+6+NRG+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e6b17d00-720c-408a-aada-e3ba0d4c449a/GIANNIS+FREAK+6+NRG+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/27428842-4738-45cc-8f33-3400b066366b/GIANNIS+FREAK+6+NRG+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/385bf346-a2f8-40e1-abff-9e9282cb514f/GIANNIS+FREAK+6+NRG+EP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/280c6e4a-2a05-48dd-944d-85aa4777fe36/GIANNIS+FREAK+6+NRG+EP.png"]
+      } ,
+      
+      {
+        "name": "Trekist Pegasus Premium ",
+        "price":11895 ,
+        "size": [5, 6, 7, 8],
+        "description": "",
+        "type": "",
+        "image": "",
+         "profile_image": ["","","","",""]
+      } 
+      
+      
+      
+      
     ]
+  
   }
+ 
 ]

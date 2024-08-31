@@ -9,7 +9,7 @@
 #left {
   width: 20%;
   height: 100%;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(228, 228, 228);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,8 +18,8 @@
 
 #left > li {
   width: 80%;
-  background-color: white;
-  margin: 20px auto;
+  background-color: rgb(228, 228, 228);
+  margin: 18px auto;
   color: black;
   text-align: center;
   font-size: 20px;
@@ -30,6 +30,27 @@
   align-items: center;
   justify-content: center;
   font-family: "poppins", sans-serif;
+}
+
+
+@media screen and ( max-width:800px) {
+
+  #left 
+  {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+ #left >li
+  {
+    margin: 0px 5px;
+    width: 75px;
+    height: 35px;
+    font-size: 10px;
+    background-color: white;
+
+  }
+  
 }
 
 #right {
