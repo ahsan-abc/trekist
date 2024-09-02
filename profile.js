@@ -5,6 +5,13 @@ let slider_indicator = document.getElementById("slider_indicator");
 let profile_data = localStorage.getItem("profile_data");
 profile_data = JSON.parse(profile_data);
 
+let profile_price = document.getElementById("profile_price");
+
+profile_price.children[0].innerHTML = profile_data.name;
+profile_price.children[1].innerHTML = profile_data.type;
+profile_price.children[2].innerHTML = `MRP : ` + profile_data.price + ` ₹`;
+profile_price.children[3].innerHTML = profile_data.description;
+
 for (let i = 0; i < 5; i++) {
   profile_image.children[i].src = profile_data.profile_image[i];
   slider_indicator.children[i].src = profile_data.profile_image[i];
