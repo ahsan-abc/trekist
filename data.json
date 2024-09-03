@@ -914,104 +914,348 @@
         ]
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist FBI 3T",
+        "price":11895,
+        "size": [5, 6, 7, 8],
+        "description": "Every skate shoe is defined by how it works, feels and lasts. As a trailblazer, Sandy Bodecker understood these pillars and saw the summer competition as an opportunity to address these performance needs on the biggest stage in skateboarding. An homage to Sandy's legacy, the Nike SB PS8 combines an innovative perspective to performance with Nike heritage for a shoe that breaks in fast and breaks down slow.",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/19691108-b24f-4dff-8e3a-f17c9e60e8a1/NIKE+SB+PS8.png",
+         "profile_image": ["https://static.nike.com/a/images/t_prod_ss/w_480,c_limit,f_auto,q_auto/89688f12-39ad-4f47-9263-84f47adeccbe/nike-sb-ps8-phantom-and-black-fn0374-001-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_480,c_limit,f_auto,q_auto/36ff5392-bc59-4d2b-b6ee-9ba09f9aa287/nike-sb-ps8-phantom-and-black-fn0374-001-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_480,c_limit,f_auto,q_auto/e0bd45c2-0abb-41b4-84d4-f1f50d22bfc8/nike-sb-ps8-phantom-and-black-fn0374-001-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_480,c_limit,f_auto,q_auto/2457820a-7b8a-4789-b980-8d1190194fa7/nike-sb-ps8-phantom-and-black-fn0374-001-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_480,c_limit,f_auto,q_auto/409fdafe-5ecf-4668-a26b-35ac810ceb2e/nike-sb-ps8-phantom-and-black-fn0374-001-release-date.jpg"]
+      } ,
+
+      {
+        "name": "Trekist PSG5 ",
+        "price":6737,
         "size": [5, 6, 7, 8],
         "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57f1259c-6d9b-4c4c-88b5-301d6951dc95/NIKE+SB+FORCE+58+PRM+L.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/da8e413a-ea84-4602-88ff-05921db36358/NIKE+SB+FORCE+58+PRM+L.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b13d51e5-c3ea-4bad-83c2-a6c74ec89a21/NIKE+SB+FORCE+58+PRM+L.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/79cab8c0-629d-403e-843e-1878ee2215b6/NIKE+SB+FORCE+58+PRM+L.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0f97d1e2-d6e0-4e38-b18c-696a294811e2/NIKE+SB+FORCE+58+PRM+L.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ed4c22b9-9406-4500-a6f9-8cf12e1d0d32/NIKE+SB+FORCE+58+PRM+L.png"]
+      } ,  
+      
+      {
+        "name": "Trekist Metcocn ",
+        "price":12157 ,
+        "size": [5, 6, 7, 8],
+        "description": "Whatever your,WHY is for working out, the Metcon 9 makes it all worth it. We improved on the 8 with a larger Hyperlift plate and added rubber rope wrap. Sworn by some of the greatest athletes in the world, intended for lifters, cross-trainers and go-getters, and still the gold standard that delivers day after",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d3e34e65-7b2a-4ee6-bf17-5a167f57a0d8/NIKE+METCON+9+AMP.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/62081e3c-17a6-49c2-88ac-aa70bbcc3bdd/NIKE+METCON+9+AMP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7305b41-16c6-42d4-9c88-5246ebd5eb05/NIKE+METCON+9+AMP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/257ed78b-f30f-4bcc-885f-b65721880fda/NIKE+METCON+9+AMP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f4b38694-b69a-485d-987c-d88f5ac08d7f/NIKE+METCON+9+AMP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/415eb8cf-fedd-4e81-b636-c014ad8d386e/NIKE+METCON+9+AMP.png"]
+      } ,
+      
+      {
+        "name": "Trekist Stadium ",
+        "price":12157,
+        "size": [5, 6, 7, 8],
+        "description": "Evolve your game. The Stadium 90 takes elements from the greats and forges them into something entirely unique. Combining iconic design elements from the AJ1 and AJ5, this is a new classic with an emphasis on comfort, durability and stability.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4294afe1-20d0-4e2d-bb92-fba3203df96e/WMNS+JORDAN+STADIUM+90.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bd203768-8f19-4eb9-8481-207299580e36/WMNS+JORDAN+STADIUM+90.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6abbb337-8f34-40d8-80a3-253d5b4a0f73/WMNS+JORDAN+STADIUM+90.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/470b88fd-74e7-4a84-817c-653f9df020fb/WMNS+JORDAN+STADIUM+90.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3dae0dc3-28c5-430f-b21d-3dc109aac048/WMNS+JORDAN+STADIUM+90.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4489367-44d8-4764-b897-131602882332/WMNS+JORDAN+STADIUM+90.png"]
+      },
+
+      {
+        "name": "Trekist Air Dart ",
+        "price":16147,
+        "size": [5, 6, 7, 8],
+        "description": "Sleek. Stylish. Simple. The Air Max 97's water-inspired design flows whether you're out for a run or a night on the town. Full-length Nike Air cushioning lets you ride in performance comfort.",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6ab38c5b-d449-4132-9c16-2d05768654bb/NIKE+AIR+MAX+97.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/85e240f4-13a2-4189-b744-521724af4194/NIKE+AIR+MAX+97.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/570f7d65-40eb-4558-b39f-75b8fa04894e/NIKE+AIR+MAX+97.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1d2b8378-8541-409f-9f33-5d87abc889fb/NIKE+AIR+MAX+97.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c84575d-06b8-4e0c-9ee0-f3d12cffbe10/NIKE+AIR+MAX+97.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/104765fc-9feb-463f-ad7b-5c301a64e27d/NIKE+AIR+MAX+97.png"]
+    
+      },
+
+      {
+        "name": "Trekist Fiz Metcon ",
+        "price":10257 ,
+        "size": [5, 6, 7, 8],
+        "description": "When your workouts wade into the nitty-gritty, the Nike Free Metcon 5 can meet you in the depths, help you dig deep to find that final ounce of force and come out of the other side on a high. It matches style with substance, forefoot flexibility with back-end stability, perfect for flying through a cardio day or enhancing your agility. A revamped upper offers easier entry with a collar made just for your ankle.",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/445e81c0-d55c-4c9e-ac13-cd247ca11034/NIKE+FREE+METCON+5.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6d63bbc8-92c4-4fda-9158-02626c949cf5/NIKE+FREE+METCON+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c5a74473-7b1a-4f88-8326-2a12e3bfd571/NIKE+FREE+METCON+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2ea8b7cf-3a9f-43f0-8020-8345f99fa722/NIKE+FREE+METCON+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4b4ae4ad-4283-4ed0-9fd7-5c9c807abd21/NIKE+FREE+METCON+5.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3a9921c8-591f-4723-9242-f0dc77456ae0/NIKE+FREE+METCON+5.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Jumbo  ",
+        "price":10917,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "The '80s icon returns with a nature-inspired aesthetic. This Dunk features a full-length Nike Air unit for even more cushioning, wherever your day takes you. A jumbo Swoosh logo takes centre stage, while the updated tongue sports a large pull tab and exposed foam for a DIY look.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/38146b2a-0c0f-46e8-b6ec-c137633f8b47/NIKE+AIR+DUNK+LOW+JUMBO.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d39b8cb3-df87-41a5-885f-949c951c2c55/NIKE+AIR+DUNK+LOW+JUMBO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bb913f80-afe3-40a4-b1b9-bfddfd3e9f92/NIKE+AIR+DUNK+LOW+JUMBO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3968818-2ac8-42f7-b56c-c952a9d48f06/NIKE+AIR+DUNK+LOW+JUMBO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/863b9c60-1063-4968-b350-17649edf9bbb/NIKE+AIR+DUNK+LOW+JUMBO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/be9c4570-bc4c-49a4-a350-7c6e8fdc7909/NIKE+AIR+DUNK+LOW+JUMBO.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist ACG Mountain ",
+        "price":13297,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "On the trail, details matter. Fast, rugged and ready for whatever wildness comes your way, the updated ACG Mountain Fly 2 is here to take you to the top. Over glacial-smoothed granite and root-twisted trails, we've reinforced every step with an extended toe cap and mountain-tough rubber sidewalls. Don't worry about pushing your hardest either—the breathable upper helps stop you from overheating and lets you air out quickly when wet.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a5d23061-07df-409b-9fe3-896997612b8d/ACG+MOUNTAIN+FLY+2+LOW.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d0d51cc-b7e6-416c-aa04-e0b7119a46f2/ACG+MOUNTAIN+FLY+2+LOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185e0eaf-384a-45dc-932a-df7ffeb086a8/ACG+MOUNTAIN+FLY+2+LOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fb074c4d-0d1c-4618-adea-43e22c8950bc/ACG+MOUNTAIN+FLY+2+LOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3a75704c-b43d-4a64-b1c5-f85bc13a6853/ACG+MOUNTAIN+FLY+2+LOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3aefcc53-e233-424b-b37c-24f685dcadd6/ACG+MOUNTAIN+FLY+2+LOW.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Fly.By Mid",
+        "price":4747 ,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "Cushioning, ankle support and traction are essential on the basketball court. The Nike Fly.By Mid 3 delivers exactly what's needed to help players excel on offence and defence. Designed to look as comfortable as it feels, the mid-top sneaker has plush, energy-returning foam to help keep you fresh through four quarters",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/08f86361-0550-4452-bce0-5d7de3f34cb6/NIKE+FLY.BY+MID+3.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5064872f-99f4-4f98-87cc-bbb31e175044/NIKE+FLY.BY+MID+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/581cd6d7-ba47-4c3c-8d86-0037769a1a06/NIKE+FLY.BY+MID+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fce3ed02-3d92-4da2-b5bd-3bbb322b2ca0/NIKE+FLY.BY+MID+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/148cf293-47cd-4ffe-916b-9722244a8881/NIKE+FLY.BY+MID+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45630ada-aae1-4544-864f-badf759f5722/NIKE+FLY.BY+MID+3.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Plus Drift  ",
+        "price":16295 ,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "Let your attitude have the edge in the Air Max Plus. Complete with airy mesh, unbelievable cushioning and wavy design lines inspired by nature, it lets you celebrate your defiant style in comfort.",
+        "type": "secial ",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4a722e64-7a2d-4310-bcb2-3725c26791f7/AIR+MAX+PLUS+DRIFT.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e94db489-0651-4f85-bc85-6584b7e1260d/AIR+MAX+PLUS+DRIFT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/facccd34-0cbb-474b-a2dc-f191735bbd06/AIR+MAX+PLUS+DRIFT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f823fb19-850d-48b2-b482-44c57bc11b7b/AIR+MAX+PLUS+DRIFT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2cd636fb-cbd0-4738-8b0f-3960f50b393f/AIR+MAX+PLUS+DRIFT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/973692e1-fa1f-4cb6-8704-f51bdaa74668/AIR+MAX+PLUS+DRIFT.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Max Ishod ",
+        "price": 9207,
         "size": [5, 6, 7, 8],
-        "description": "",
+        "description": "Infused with elements taken from iconic '90s hoops shoes, the Air Max Ishod is built with all the durability you need to skate hard. This creative twist on the original Ishod design features updated mesh, exposed Nike Air (with Max Air technology) and a cupsole that breaks in easily. Now step in and skate like you mean it.",
         "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26193eff-8dc2-4a0f-bd87-c7b239aa28e4/NIKE+AIR+MAX+ISHOD.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/306de27c-9db3-4885-a939-9480eb1e6543/NIKE+AIR+MAX+ISHOD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aaa26fe1-dccd-475d-893f-92440e89d86e/NIKE+AIR+MAX+ISHOD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ba31606c-684a-40f6-ad74-1ad1fc59c844/NIKE+AIR+MAX+ISHOD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d613cf17-dfa5-4cec-8136-ae1803faaf63/NIKE+AIR+MAX+ISHOD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3648a348-51f1-4766-b2c5-e5a0a37e6fd1/NIKE+AIR+MAX+ISHOD.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Killshot ",
+        "price":8167 ,
         "size": [5, 6, 7, 8],
-        "description": "",
+        "description": "Inspired by the original low-profile tennis shoes, the Nike Killshot 2 updates the upper with various textured leathers to create a fresh take on an old-school look. And it wouldn't be a tennis shoe without the gum-rubber sole's reliable traction. From soft suedes to smooth leathers with the perfect sheen, it's classic courtside attitude with a modern touch.",
         "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/466e41ec-0f59-4cde-a92d-af430eed9d5f/KILLSHOT+2+LEATHER.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8efde33a-06b7-4901-bc2e-4d07ce6ace15/KILLSHOT+2+LEATHER.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf7c93f6-9209-4729-b53e-974ade43db6c/KILLSHOT+2+LEATHER.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/53a586b9-c57a-4b89-9aa6-22e38c22497a/KILLSHOT+2+LEATHER.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b00893d8-830a-4906-b3ab-09b4da9f9da4/KILLSHOT+2+LEATHER.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b508f56a-2702-435f-9aef-e1cd1838d2d3/KILLSHOT+2+LEATHER.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Air Jordan F ",
+        "price":7877,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "A style icon fit for style icons. This AJ1 pairs premium materials with eye-popping details including a gel-like Swoosh logo and an icy rubber outsole for a look that turns up the heat.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c6f62b53-3636-4b33-91b7-60dc4ad9ecf9/AIR+JORDAN+1+LOW+SE+%28GS%29.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cd9a47bf-aa7b-43fc-a6ae-c3350d01696f/AIR+JORDAN+1+LOW+SE+%28GS%29.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/717bbec6-595d-414c-887a-cf5037aac0a1/AIR+JORDAN+1+LOW+SE+%28GS%29.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/003804cf-46dd-44ca-88a6-5c8a82f6c446/AIR+JORDAN+1+LOW+SE+%28GS%29.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0dd5f003-15e9-465a-8e5f-453117ac135d/AIR+JORDAN+1+LOW+SE+%28GS%29.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/18779f3b-dc25-4c34-8379-3f18213ccc60/AIR+JORDAN+1+LOW+SE+%28GS%29.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Attack  ",
+        "price":10257 ,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "Mac Attack! These shoes are a 1:1 recreation of John McEnroe's iconic '80s look. Channel his rebellious nature with bold colour-blocking and graphics to stand out from the sea of Triple Whites.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/78916134-4131-4ff9-aca6-ecdc810e098c/NIKE+ATTACK+QS+SP.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8e4f969-cfb8-4bfd-8312-c62cf135d077/NIKE+ATTACK+QS+SP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ece93bd9-4796-410a-8cf8-5b012ae70e1c/NIKE+ATTACK+QS+SP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/497793eb-b70c-4a6a-a71b-bad8ebce1a2b/NIKE+ATTACK+QS+SP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/30a4d525-34b7-43fa-b86c-9a0e54a3c0d3/NIKE+ATTACK+QS+SP.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/870ed292-7612-4a6f-b0a7-6757627de573/NIKE+ATTACK+QS+SP.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Air Zoom ",
+        "price":10257 ,
         "size": [5, 6, 7, 8],
-        "description": "",
-        "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "description": "Gains aren't given, they're earned. Go get what's yours. We spring-loaded this do-it-all trainer with responsiveness for surges of off-the-rack energy. It can withstand the rigours of high-intensity exertion while sticking with you as you wind your way through the everyday paces.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fbd6425d-1beb-41ed-9e0b-7a9a2df32bcf/M+NIKE+AIR+ZOOM+TR+1.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65969783-0cda-4fdf-976f-4ca8f38ce2af/M+NIKE+AIR+ZOOM+TR+1.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1d7002f6-a036-4522-9d65-e49974d83625/M+NIKE+AIR+ZOOM+TR+1.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a974aa1-9c3b-4454-b0a4-d7f7078e1316/M+NIKE+AIR+ZOOM+TR+1.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0efd301f-fc66-4519-b275-37fe5d564c4b/M+NIKE+AIR+ZOOM+TR+1.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7b794e53-dc1b-49ca-b784-9240d8eb5017/M+NIKE+AIR+ZOOM+TR+1.png"]
+    
       },
       {
-        "name": "Trekist Zoom",
-        "price": 18105,
+        "name": "Trekist Mercurial AIR ",
+        "price":12795 ,
         "size": [5, 6, 7, 8],
-        "description": "",
+        "description": "We make Academy boots for those looking to take their game to the next level. Injected with pastel pinks, this special edition of the Vapor 15 is inspired by what the pros wear for the world's biggest tournaments, where their brilliance takes centre stage. Add in an Air Zoom unit for speed and you have a boot ready for your moments of greatness.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3bc2873f-2ef1-4e40-882d-d68526ef905f/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/abc08d25-af32-4d20-932a-09271665b39e/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09b8ed27-61b1-4db2-809c-989f4543be93/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/77d4c551-58ed-4fbb-b1f2-b45af6992104/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d49e8dc0-27c6-4165-a56a-b51dcde1347e/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3089d1d6-19ec-4da8-ad7d-6c054afb3e16/JR+ZOOM+VAPOR+15+ACADEMY+FG%2FMG.png"]
+    
+      },
+      {
+        "name": "Trekist Reax TR ",
+        "price":7495 ,
+        "size": [5, 6, 7, 8],
+        "description": "The Nike Reax 8 TR combines lightweight containment with responsive cushioning for premium performance while training.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-e302c9b4-2178-4438-a6cb-a579993aa5c3/NIKE+REAX+8+TR+MESH.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i1-2917c194-bd10-44ba-a98d-3213f930f051/NIKE+REAX+8+TR+MESH.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i1-ad6fcc3f-3fe5-40de-8e32-415330e92c3c/NIKE+REAX+8+TR+MESH.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i1-490af666-baef-43fd-b7cd-d7e8b896a111/NIKE+REAX+8+TR+MESH.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i1-9e8d7419-7430-4ada-b01b-335f63b3eda9/NIKE+REAX+8+TR+MESH.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i1-142453d2-daa4-4da3-9f7f-26cf2f80fd4c/NIKE+REAX+8+TR+MESH.png"]
+    
+      },
+      {
+        "name": "Trekist Dunk High Retro",
+        "price":9295,
+        "size": [5, 6, 7, 8],
+        "description": "Created for the hardwood but taken to the streets, the '80s basketball icon returns with perfectly sheened overlays and original university colours. With its classic hoops design, the Nike Dunk High Retro channels '80s vintage back onto the streets while its padded, high-top collar adds an old-school look rooted in comfort.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fd17b420-b388-4c8a-aaaa-e0a98ddf175f/NIKE+DUNK+HI+RETRO.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5e7687f1-c13e-4bac-8ffa-a6f863ae9157/NIKE+DUNK+HI+RETRO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/332da330-4bb3-42d3-9123-5c7e64789342/NIKE+DUNK+HI+RETRO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45bb2189-245f-4b78-8cad-485bbc723c39/NIKE+DUNK+HI+RETRO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ac4c2d4d-06fc-4e92-9fec-c78cbb110c5f/NIKE+DUNK+HI+RETRO.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/811b9857-d626-46d0-b2ff-7a8858717fc6/NIKE+DUNK+HI+RETRO.png"]
+    
+      },
+      {
+        "name": "Trekist Next Nature ",
+        "price":10275 ,
+        "size": [5, 6, 7, 8],
+        "description": "The '80s basketball icon returns with throwback hoops flair and premium materials. A mix of smooth and cracked leather gives your Dunk a fresh feel. Plus, its padded collar lets you take your game anywhere—in comfort.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/85b683e1-db84-47af-a656-5cfb4b8d5f97/W+NIKE+DUNK+LOW+PRM+NN.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a818a131-a5b1-43eb-ac0c-d68d33141819/W+NIKE+DUNK+LOW+PRM+NN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22c7c51d-d2c8-4e30-86c1-3eb04df28214/W+NIKE+DUNK+LOW+PRM+NN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2109b0e6-00e1-48e8-b04f-75084dcdd099/W+NIKE+DUNK+LOW+PRM+NN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7988b767-6fa8-4b16-aee1-c18663921340/W+NIKE+DUNK+LOW+PRM+NN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1c303c44-1ad8-4cb3-987c-68028c199cae/W+NIKE+DUNK+LOW+PRM+NN.png"]
+    
+      },
+      {
+        "name": "Trekist Interact Run ",
+        "price":6737 ,
+        "size": [5, 6, 7, 8],
+        "description": "Can you see the future? Fast-forward your footsteps in the cutting-edge Nike Interact Run. It's set up with all the running goodness you need: a lightweight Flyknit upper, soft foam midsole and comfort where it counts. Scan the QR code on the tongue with your phone, and check out our online introduction to the Nike Interact Run's ins and outs.",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/df519653-18ae-4032-9650-31d88af9da5e/NIKE+INTERACT+RUN.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1982b1d8-d43b-4917-93b7-0a9100815265/NIKE+INTERACT+RUN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/97bf1020-0584-48db-a7cf-b85b9d27a2c4/NIKE+INTERACT+RUN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e0d6fae1-cf7f-41e6-a74b-24ec7d643dc7/NIKE+INTERACT+RUN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4066a01-9c7b-4f47-ad52-840806461289/NIKE+INTERACT+RUN.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9020f87-a57b-4289-ba96-943a21c15e36/NIKE+INTERACT+RUN.png"]
+    
+      },
+      {
+        "name": "Trekist Precision ",
+        "price":5407 ,
+        "size": [5, 6, 7, 8],
+        "description": "Score at will at the rim or from deep in the Nike Precision 7. Crafted with a combination of ground control, comfort and on-court traction, it's perfect for instant impact plays when your name is called for the next casual game. Check in and make the plays that swing the outcome in your favour.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/97fb8db1-8d01-451e-8dbf-5009b2cc2a79/NIKE+PRECISION+VII.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b469d1c-aacb-43e7-8902-f801f5b85dc5/NIKE+PRECISION+VII.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/059fc296-9215-42b7-9530-d9152efd2f7f/NIKE+PRECISION+VII.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c834c8de-113b-43ff-be4d-3f690ec313d5/NIKE+PRECISION+VII.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9e5ecfa1-3d45-4dea-abe2-c354af8ce845/NIKE+PRECISION+VII.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b9f60746-d18f-4b60-93f0-d0a09b9e661c/NIKE+PRECISION+VII.png"]
+    
+      },
+      {
+        "name": "Trekist Zoom Victory ",
+        "price":15197 ,
+        "size": [5, 6, 7, 8],
+        "description": "Push for your personal best in the Nike Air Zoom Victory.Its design is built with the support and stability you need for a run from 800 to 5,000 metres.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4512b09a-fa39-4520-b20e-db803c8eab43/NIKE+AIR+ZOOM+VICTORY.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3eacd030-fdc8-46bc-8f16-7eeb3a2bff8c/NIKE+AIR+ZOOM+VICTORY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/42a07f77-e307-4794-8cc6-6f0c5b0ab6d2/NIKE+AIR+ZOOM+VICTORY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83820840-58cb-4ed9-ac33-84a378fe0274/NIKE+AIR+ZOOM+VICTORY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dd453250-1c62-4f02-8eb6-99f876acfea6/NIKE+AIR+ZOOM+VICTORY.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6e3e4928-9ea2-44bb-9a22-1441a57a94bb/NIKE+AIR+ZOOM+VICTORY.png"]
+    
+      },
+      {
+        "name": "Trekist Vomero AF ",
+        "price": 14995,
+        "size": [5, 6, 7, 8],
+        "description": "Maximum cushioning provides a comfortable ride for everyday runs. Experience enhanced comfort in this latest version, with a dual-density midsole made with a combination of ZoomX underfoot and Cushlon 3.0 foam throughout. Plus, a new engineered mesh upper offers more breathability",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15c4e486-dd36-4a3b-a40d-86018174c1e9/NIKE+VOMERO+17.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/14c6b14e-adbf-4136-acbc-0da2f982cf1c/NIKE+VOMERO+17.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f6690128-73c7-421d-ad46-05876a65aa6a/NIKE+VOMERO+17.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ee0a8b38-9903-47cb-8e8d-9ee3fcb7faf2/NIKE+VOMERO+17.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/655896f1-802d-4eed-94e8-723ee561c41d/NIKE+VOMERO+17.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d00a78fe-b67f-45fe-9722-7c0c6da5ff27/NIKE+VOMERO+17.png"]
+    
+      },
+      {
+        "name": "Trekist Pulse Roam",
+        "price":14247 ,
+        "size": [5, 6, 7, 8],
+        "description": "The Air Max Pulse Roam takes cues from its stylish forerunner and moves it in a more utilitarian direction. This means durability without the discomfort and style without the effort. Visible Air cushioning—revamped from the incredibly plush Air Max 270—delivers the comfort you've come to trust",
+        "type": "special",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7f453619-59c1-46fd-b3ab-47f7beba230d/NIKE+AIR+MAX+PULSE+ROAM.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3db2e706-40e9-4ee4-a87c-9b908f4f3db2/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d909366-7b6d-4581-90f0-b53dde469d0f/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0da69d6b-4b9d-4828-975c-494446ba0623/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/34e37efb-e6be-4933-853c-8b7f5cb17d74/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/adaa38f8-f692-4d49-aab7-b2bc132d462b/NIKE+AIR+MAX+PULSE+ROAM.png"]
+    
+      },
+      {
+        "name": "Trekist ISPA Link ",
+        "price":25457 ,
+        "size": [5, 6, 7, 8],
+        "description": "Continuing our journey to push the needle of Nike innovation, the ISPA Link Axis is an exploration into circular design with 100% recycled materials: Every part can be recycled, says the ISPA team. It represents progress over perfection—creating a product with a second life in mind. Guided by the principles of modularity and waste reduction, the design uses interlocking components of recycled Flyknit and plastic, as few materials as possible and zero glue. Experience the future of design in the present. And if or when you want to help extend the shoes' life, simply drop 'em off at a participating Nike store for recycling.",
+        "type": "special",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/aed7e5a1-d01e-4c24-9bbb-21a9f35fff3e/NIKE+ISPA+LINK+AXIS.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/193ca0e9-2c8f-4035-8f00-2d8750c0b7d9/NIKE+ISPA+LINK+AXIS.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c3354fbc-2319-4f34-b1fb-ebc5040d0b40/NIKE+ISPA+LINK+AXIS.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/be454833-6774-4a50-acc7-5f5a4bdb641a/NIKE+ISPA+LINK+AXIS.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8d727841-0124-4cb0-a69f-c1bf58a06c77/NIKE+ISPA+LINK+AXIS.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/94df2ece-84b7-42e3-986c-5a68bdf15fe4/NIKE+ISPA+LINK+AXIS.png"]
+    
+      },
+      {
+        "name": "Trekist Shadow Force ",
+        "price":11297 ,
+        "size": [5, 6, 7, 8],
+        "description": "Everything you love about the AF-1—but doubled! The Nike Air Force 1 Shadow puts a playful twist on a hoops icon to highlight the best of AF-1 DNA. Layered overlays in brightly coloured leather bring added depth, while double the branding and an exaggerated midsole help give these sneakers a bold look.",
+        "type": "casual",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e6d118a1-7135-4537-81af-7622e24baead/W+AF1+SHADOW.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5de54772-b44b-4170-8ae6-214a0b131afc/W+AF1+SHADOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2942e310-cba8-4715-ae67-e65548ff6a65/W+AF1+SHADOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/26f0cedc-d77c-4d21-bfbe-96fdf6538eaa/W+AF1+SHADOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e993c9a9-6a45-4ae2-bcee-30e09bcad17f/W+AF1+SHADOW.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/186fe251-5b41-4ef0-9253-5270728165c4/W+AF1+SHADOW.png"]
+    
+      },
+      {
+        "name": "Trekist Alphalfy ",
+        "price":22795,
+        "size": [5, 6, 7, 8],
+        "description": "Fine-tuned for marathon speed, the Alphafly 3 helps push you beyond what you thought possible. Three innovative technologies power your run: a double dose of Air Zoom units helps launch you into your next step; a full-length carbon-fibre plate helps propel you forwards with ease; and a heel-to-toe ZoomX foam midsole helps keep you fresh from start to 26.2. Time to leave your old personal records in the dust.",
+        "type": "sneakers",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7776f88c-1bf6-49ac-a53b-b532f4c51a87/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/477abbf8-b37a-4fe6-b516-08e294a8487a/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/87f531e0-13d1-46d0-b60c-e2c628adec7c/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a3f948d-bd33-459a-b8dd-57dbe9b809ca/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e1a7071f-6722-4e00-b03a-1d08e27d5a32/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e2de2bc7-801c-44e9-84a9-215bdfee7e01/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"]
+    
+      },
+      {
+        "name": "Trekist Cortez ",
+        "price":8495 ,
+        "size": [5, 6, 7, 8],
+        "description": "You spoke. We listened. Based on your feedback, we've revamped the original Cortez while maintaining the retro appeal you know and love. Now with a wider toe area and firmer side panels, you can comfortably wear them day in and day out. Plus, the textile upper has been re-engineered to help prevent warping or creasing. Cortez fans—this one's for you.",
         "type": "formal",
-        "image": "",
-        "profile_image": ["", "", "", "", ""]
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2a748438-2634-454a-b137-431f99e4db1a/NIKE+CORTEZ+TXT.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6c3cc4a0-2bf4-4a7c-a2ba-c83875642bc5/NIKE+CORTEZ+TXT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/57dfb8dd-dfaf-4132-99af-9a4d508a250a/NIKE+CORTEZ+TXT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/10db3a7e-2aa6-4a94-95dc-aac6d92f3ef6/NIKE+CORTEZ+TXT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/428aab54-623c-4d4b-96b8-f2cab777bca8/NIKE+CORTEZ+TXT.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/957d66cc-37fc-496a-9963-0219e10094cc/NIKE+CORTEZ+TXT.png"]
+    
+      },
+      {
+        "name": "Trekist MC Trainer ",
+        "price":5407 ,
+        "size": [5, 6, 7, 8],
+        "description": "The Nike MC Trainer 2 can help you shift from circuit training in the weight room to the Astroturf for quick-twitch conditioning, seamlessly. It's a multi-purpose power that combines versatility, stability and longevity so that you can stay locked in on the physical task at hand. From back squats to sprint repeats, it can help support the rigours of your diverse training programme without having to make a pit stop to grab more gear for your workout.",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2690f275-f811-4967-8da4-872e6b6d6229/M+NIKE+MC+TRAINER+2.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d0ff796-63fb-4728-9845-1334f57c73ea/M+NIKE+MC+TRAINER+2.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d22ab107-789d-4916-8add-b2dfe235d859/M+NIKE+MC+TRAINER+2.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/18cd4f48-1577-4fd2-8039-136447710573/M+NIKE+MC+TRAINER+2.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bccd6891-fc9f-4929-949d-188c89faae84/M+NIKE+MC+TRAINER+2.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f977177-646f-4bac-bb2a-ef66d7207c66/M+NIKE+MC+TRAINER+2.png"]
+    
+      },
+      {
+        "name": "Trekist Air Wild ",
+        "price":12157,
+        "size": [5, 6, 7, 8],
+        "description": "The outdoors is for everyone—and this shoe is too. The classic AF-1 gets an adventurous refresh with utility lacing, durable materials and sturdy stitching. The textile-wrapped midsole is light and more flexible, while an added heel pillow creates extra comfort. Embroidered accents contrast with boot-like details for a look that's versatile and functional.",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dbe78555-e3e1-4113-b2d2-c18699b6fa27/W+AIR+FORCE+1+WILD.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/405d1933-2065-4913-bcb2-89f53c5a3f68/W+AIR+FORCE+1+WILD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c6889e52-d5bb-484b-a642-26328cdc5450/W+AIR+FORCE+1+WILD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8ba3f538-cea2-4bb0-a766-805018d268da/W+AIR+FORCE+1+WILD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b4bc4a2f-4420-45a3-80cc-58b5ca380863/W+AIR+FORCE+1+WILD.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/98d835bb-5ad0-4c6c-a6a0-9855cb23eceb/W+AIR+FORCE+1+WILD.png"]
+    
+      },
+      {
+        "name": "Trekist SB Pogo ",
+        "price":8067 ,
+        "size": [5, 6, 7, 8],
+        "description": "The Zoom Pogo delivers a serious boost to any skate session. With a broken-in fit straight out of the box and mixed materials that age to perfection, they bring comfort you have to feel to believe. Oh, and the raised taping increases control for the perfect flick, while Zoom Air cushioning delivers the ultimate boardfeel",
+        "type": "formal",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e83966e2-831e-4270-88c6-73cff73690cd/NIKE+SB+ZOOM+POGO+PLUS+PRM.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d45cfbff-7b7f-4e04-bc79-b28011263026/NIKE+SB+ZOOM+POGO+PLUS+PRM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6e682abe-d67e-4629-8501-d91c5476bebf/NIKE+SB+ZOOM+POGO+PLUS+PRM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e354538c-b182-4768-909e-8a9c97ffdbb4/NIKE+SB+ZOOM+POGO+PLUS+PRM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/492a846d-9a10-45f6-9c84-594d1deb10a6/NIKE+SB+ZOOM+POGO+PLUS+PRM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c65cb12b-36f9-49b8-aab8-041bf9db924d/NIKE+SB+ZOOM+POGO+PLUS+PRM.png"]
+    
+      },
+    
+      {
+        "name": "Trekist Max Pulse RM",
+        "price":14247 ,
+        "size": [5, 6, 7, 8],
+        "description": "The Air Max Pulse Roam takes cues from its stylish forerunner and moves it in a more utilitarian direction. This means durability without the discomfort and style without the effort. Visible Air cushioning—revamped from the incredibly plush Air Max 270—delivers the comfort you've come to trust.",
+        "type": "special",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7f453619-59c1-46fd-b3ab-47f7beba230d/NIKE+AIR+MAX+PULSE+ROAM.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3db2e706-40e9-4ee4-a87c-9b908f4f3db2/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d909366-7b6d-4581-90f0-b53dde469d0f/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0da69d6b-4b9d-4828-975c-494446ba0623/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/34e37efb-e6be-4933-853c-8b7f5cb17d74/NIKE+AIR+MAX+PULSE+ROAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/adaa38f8-f692-4d49-aab7-b2bc132d462b/NIKE+AIR+MAX+PULSE+ROAM.png"]
+    
+      },
+      {
+        "name": "Trekist JAM ",
+        "price":10795 ,
+        "size": [5, 6, 7, 8],
+        "description": "Bring your body, mind and soul with JAM—Nike's first shoe created for breakers on the world stage. We obsessed over every detail from top to bottom so you can throw down in a cypher with confidence. It features a flexible and durable upper that moves with you, while textured hand grips on the midsole make it easier to grab your shoe when you're up in the air. And for a little something extra, the flipped logo is right side up when you're upside down during freeze poses.",
+        "type": "sports",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/746735e2-6cdf-4172-8d04-15801fccf0f2/NIKE+JAM.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cf0dbaa6-584e-4f79-bed0-fac26a119368/NIKE+JAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b216bf22-173a-4f94-b176-4a84aa5cc858/NIKE+JAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5c58fc2-3819-42a9-9561-f72c00b93b8d/NIKE+JAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0eee26a5-2fb7-4600-8547-8bbf7165c6d6/NIKE+JAM.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2cf584c4-54ac-46d9-b09e-e6207293fc9c/NIKE+JAM.png"]
+    
+      },
+      {
+        "name": "Trekist Metcon OG",
+        "price":13995,
+        "size": [5, 6, 7, 8],
+        "description": "The Metcon 1 have returned in true minimalist form. From the Flywire cables to the breathable mesh on the upper, this is the exact 2015 iteration that rocked the workout world. As we near their 10-year anniversary, they're here for your toughest, hardest workouts",
+        "type": "training",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/de62b6c2-a453-454b-8934-4ffd2f8eb34d/NIKE+METCON+1+OG.png",
+         "profile_image": ["https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd4376e6-e2af-422e-ab93-a09daab09375/NIKE+METCON+1+OG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4bfdb47b-7195-42c3-98fa-cd349ad9f95e/NIKE+METCON+1+OG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d991bdcc-4032-46fd-aa18-aea227606f30/NIKE+METCON+1+OG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3033654-45da-4af0-be2d-87265a10e2af/NIKE+METCON+1+OG.png","https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cbd45344-e2bd-4b3e-81d5-fbd1f2ca3e95/NIKE+METCON+1+OG.png"]
+    
       }
+ 
     ]
   }
 ]
