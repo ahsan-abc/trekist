@@ -1,5 +1,67 @@
-#about
-{
+#about {
+  height: 300px;
+  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#footer-left {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-left > p {
+  width: 80%;
+  font-family: "poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: 200;
+  color: rgb(47, 47, 47);
+}
+#footer-right {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer-right > li {
+  margin-left: 20%;
+  margin-top: 18px;
+  list-style: none;
+  color: rgb(47, 47, 47);
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+#footer-bottom {
+  width: 100%;
+  height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  #about {
+    height: 500px;
+    flex-direction: column;
+  }
+
+  #footer-left {
+    width: 100%;
     height: 200px;
-    background-color: black;
+  }
+  #footer-right {
+    width: 100%;
+    height: 200px;
+  }
+  #footer-right > li {
+  }
+  #footer-bottom {
+    height: 100px;
+  }
 }
