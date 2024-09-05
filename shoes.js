@@ -9,7 +9,7 @@ function add_event(da) {
   }
 }
 
-function display_shoes(shoes, all, type) {
+async function display_shoes(shoes, all, type) {
   let right = document.getElementById("right");
   right.innerHTML = "";
   if (shoes == undefined || shoes.length == 0) {
