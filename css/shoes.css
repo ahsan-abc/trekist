@@ -32,25 +32,18 @@
   font-family: "poppins", sans-serif;
 }
 
-
-@media screen and ( max-width:800px) {
-
-  #left 
-  {
+@media screen and (max-width: 800px) {
+  #left {
     flex-direction: row;
     flex-wrap: wrap;
-
   }
- #left >li
-  {
+  #left > li {
     margin: 0px 5px;
     width: 75px;
     height: 35px;
     font-size: 10px;
     background-color: white;
-
   }
-  
 }
 
 #right {
@@ -65,10 +58,17 @@
 
 .shoe {
   width: 200px;
-  height: 300px;
-  margin: 20px 10px;
+  height: 260px;
+  margin: 30px 10px;
   display: flex;
   flex-direction: column;
+}
+
+.shoe:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.03);
+  box-shadow: 0.1px 0.1px 1px 1px rgb(214, 213, 213);
+  border-radius: 2px;
 }
 
 .shoe_image {
@@ -108,4 +108,12 @@
     height: 200px;
     margin: 10px;
   }
+}
+
+.frame {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

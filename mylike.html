@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/shoes.css" />
+  </head>
+  <body>
+    <h1 style="color: red">MY LIKE</h1>
+    <div class="frame" id="mylike">
+      <div class="shoe">
+        <img
+          class="shoe_image"
+          src="` +
+            shoes[i].image +
+            `"
+          alt=""
+        />
+        <p class="shoe_name">` + shoes[i].name + `</p>
+        <p class="shoe_price">MRP : ` + shoes[i].price + ` ₹</p>
+      </div>
+    </div>
+  </body>
+</html>

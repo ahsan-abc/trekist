@@ -58,6 +58,8 @@ console.log(data_);
 
 display_shoes(data_, true);
 
+load_data();
+
 function filter_apply(type) {
   if (type != "all") {
     display_shoes(data_, false, type);
