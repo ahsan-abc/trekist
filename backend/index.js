@@ -4,6 +4,7 @@ const cors = require("cors");
 const bodyparser = require("body-parser");
 const dotenv = require("dotenv");
 dotenv.config();
+const PORT = process.env.PORT || 3030;
 
 const app = express();
 //<-------middleware----------->
@@ -14,12 +15,8 @@ app.use(cors());
 main().catch((err) => console.log(err));
 
 async function main() {
-  // await mongoose.connect('mongodb://127.0.0.1:27017/portfolio');
-  //await mongoose.connect(process.env.DB_KEY);
-  await mongoose.connect(
-    "mongodb+srv://portfolio:zgR6qCTeiN0q9BC1@cluster0.myskyxj.mongodb.net/trekist?retryWrites=true&w=majority&appName=Cluster0"
-  );
-  console.log(process.env.DB_KEY);
+  // await mongoose.connect('mongodb://127.0.0.1:27017/');
+  await mongoose.connect(process.env.DB_KEY);
   console.log("connected to mongodb");
 }
 
@@ -47,7 +44,7 @@ const Collection = mongoose.model("Collection", collectionSchema, "collection");
 //<-------send  ----------->
 
 app.get("/", (req, res) => {
-  console.log("/ request");
+  console.log("get /");
   res.send("hello");
 });
 
@@ -73,6 +70,6 @@ app.get("/collections", async (req, res) => {
 
 //<-------listen at the port 8000----------->
 
-app.listen(8000, () => {
-  console.log("server is running");
+app.listen(PORT, () => {
+  console.log(`server started on port ${PORT}`);
 });

@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trekist</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="icon" type="image/x-icon" href="./icon.ico">
-</head>
-<body>
-
-
- <!--header============================-->
+    <link rel="icon" type="image/x-icon" href="./icon.ico" />
+  </head>
+  <body>
+    <!--header============================-->
     <header>
-        <div>
-            <h1>
-
-                Trekist</h1>
-        </div>
-        <div>
-            <nav>
-                <li><a href="./index.html" >Home</a></li>
-                <li><a href="#collection" >Collection</a></li>
-                <li><a href="#about" >About</a></li>
-                <li ><a href="./mylike.html"><img src="./source/menu_icons/like.svg" alt=""></a></li>
-                <li > <a href="./mycart.html"><img src="./source/menu_icons/cart.svg" alt=""></a></li>
-                <li ><a href="./myorder.html"><img src="./source/menu_icons/order.svg" alt=""></a></li>
-    
-            </nav>
-        </div>
-       
+      <div>
+        <h1>Trekist</h1>
+      </div>
+      <div>
+        <nav>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <a href="./mylike.html"
+              ><img src="./source/menu_icons/like.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="./mycart.html"
+              ><img src="./source/menu_icons/cart.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="./myorder.html"
+              ><img src="./source/menu_icons/order.svg" alt=""
+            /></a>
+          </li>
+        </nav>
+      </div>
     </header>
 
-
-<!--shoes===============================-->
-<div id="shoes">
-
-    <div id="left">
-
+    <!--shoes===============================-->
+    <div id="shoes">
+      <div id="left">
         <li onclick="filter_apply('all')">All</li>
         <li onclick="filter_apply('casual')">casual</li>
         <li onclick="filter_apply('sports')">sports</li>
@@ -50,39 +62,35 @@
         <li onclick="filter_apply('training')">training & Gym</li>
         <li onclick="filter_apply('sneakers')">sneakers</li>
         <li onclick="filter_apply('special')">special addition</li>
+      </div>
+      <div id="right" onclick="hello()">
+        <div class="loader"></div>
+      </div>
     </div>
-    <div id="right">
-      
-      
-        <h1 style="font-size: 40px; color:rgb(107, 107, 107);">NO DATA</h1>
-      
-       
-    </div>
-    
- </div> 
-<!--main=================================-->
-     <main>
-        <div>
-        <img src="./source/image/cover.jpg" alt="">
+    <!--main=================================-->
+    <main>
+      <div>
+        <img src="./source/image/cover.jpg" alt="" />
+      </div>
+      <div>
+        <h2>smart shoes</h2>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          debitis, quae eum, magnam eos soluta nemo tempore illum rem doloremque
+          aliquam repellat sed culpa sapiente aspernatur distinctio, eligendi
+          nihil voluptates.
+        </p>
+      </div>
+    </main>
 
-        </div>
-        <div>
-            <h2>smart shoes</h2>
-            <br>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis, quae eum, magnam eos soluta nemo tempore illum rem doloremque aliquam repellat sed culpa sapiente aspernatur distinctio, eligendi nihil voluptates.</p>
-        
-            
-        </div>
-     </main>
-    
-<!--collection====================-->   
-<div id="collection_heading">COLLECTION</div>
- <div id = "collection">
-<!--most_popular--------------------------->   
-    <div class="box">
+    <!--collection====================-->
+    <div id="collection_heading">COLLECTION</div>
+    <div id="collection">
+      <!--most_popular--------------------------->
+      <!-- <div class="box">
     <div class="heading">Most popular</div>
-    <div class="container" id = "most_popular">
+    <div class="container" >
         <li class="sub_box">
             <img class="collection_image" src="./source/load_image.png" alt="">
             <div class="collection_name_box">
@@ -114,191 +122,105 @@
         </li>
     </div>
 </div>
-<!--mostsell_formal--------------------------->   
-
-<div class="box">
-    <div class="heading">Best seller formal</div>
-    <div class="container" id = "mostsell_formal">
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div>       
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-       </div>
+-->
     </div>
-<!--mostsell_sneakers--------------------------->   
 
-<div class="box">
-    <div class="heading">Most sell sneakers</div>
-    <div class="container" id = "mostsell_sneakers">
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes</p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div>          
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
+    <!--animation==========================-->
+    <div
+      style="
+        width: 100%;
+        height: 200px;
+        overflow-x: hidden;
+        display: flex;
+        background-color: rgb(230, 230, 230);
+      "
+    >
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
+      <img
+        src="source/gif/animanias-bull.gif"
+        alt="Computer man"
+        style="width: calc(200px)"
+      />
     </div>
-</div>
-<!--mostsell_casual--------------------------->   
 
-<div class="box">
-    <div class="heading">Most sell casual shoes</div>
-    <div class="container" id = "mostsell_casual">
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-    </div>
-</div>
-<!--mostsell_sports--------------------------->   
+    <!--footer====================-->
 
-<div class="box">
-    <div class="heading">Most sell sports shoes</div>
-    <div class="container" id = "mostsell_sports">
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes</p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes </p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div>     
-        </li>
-        <li class="sub_box">
-            <img class="collection_image" src="./source/load_image.png" alt="">
-            <div class="collection_name_box">
-                <p class="collection_name">Trekist Shoes</p> 
-                <p class="collection_price"> MRP : 0000 ₹</p>
-            </div> 
-        </li>
-    </div>
-</div>
-</div>
+    <footer id="about">
+      <div id="footer-left">
+        <p>
+          Trekist – where innovation meets style. Our premium shoes are crafted
+          for comfort and built to last. Step into excellence with every pair.
+          Explore our collection and elevate your journey."
+        </p>
+      </div>
+      <div id="footer-right">
+        <li>trekist.shoes@gmail.com</li>
+        <li>sahibganj , jharkhand ,816109</li>
+        <li>give - feedback</li>
+      </div>
+      <div id="footer-bottom">
+        <div id="footer-social">
+          <a href="https://www.linkedin.com/in" class="footer-social-icon">
+            <img src="./source/social_icons/linkedin-app-icon.svg" alt=""
+          /></a>
+          <a href="https://www.instagram.com/" class="footer-social-icon">
+            <img src="./source/social_icons/ig-instagram-icon.svg" alt=""
+          /></a>
+          <a
+            href="https://mail.google.com/mail/u/0/"
+            class="footer-social-icon"
+          >
+            <img src="./source/social_icons/gmail-icon.svg" alt=""
+          /></a>
+          <a href="https://x.com/" class="footer-social-icon">
+            <img
+              src="./source/social_icons/x-social-media-logo-icon.svg"
+              alt=""
+          /></a>
+        </div>
+        <div id="footer-copyright">
+          Trekist pvt.limited all copyright © unresloved
+        </div>
+      </div>
+    </footer>
 
-   
-  
-    
+    <!--javascript========-->
 
- </div>
-
- <!--animation==========================-->
- <div style="width:100%; height:200px; overflow-x:hidden; display: flex; background-color:rgb(230, 230, 230);">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width :calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
- <img src="source/gif/animanias-bull.gif" alt="Computer man" style="width:calc(200px)">
-</div>
-
-<!--footer====================-->     
-
-<footer id="about">
-  <div id="footer-left">
-    <p>Trekist – where innovation meets style. Our premium shoes are crafted for comfort and built to last. Step into excellence with every pair. Explore our collection and elevate your journey."</p>
-  </div>
-  <div id="footer-right">
-    <li>trekist.shoes@gmail.com</li>
-    <li>sahibganj , jharkhand ,816109</li>
-    <li>give - feedback</li>
-  </div>
-  <div id="footer-bottom">
-    <div id = "footer-social">
-        <a href="https://www.linkedin.com/in" class="footer-social-icon"> <img src="./source/social_icons/linkedin-app-icon.svg" alt=""></a>
-        <a href="https://www.instagram.com/" class="footer-social-icon"> <img src="./source/social_icons/ig-instagram-icon.svg" alt=""></a>
-        <a href="https://mail.google.com/mail/u/0/" class="footer-social-icon"> <img src="./source/social_icons/gmail-icon.svg" alt=""></a>
-        <a href="https://x.com/" class="footer-social-icon"> <img src="./source/social_icons/x-social-media-logo-icon.svg" alt=""></a>
-    </div>
-    <div id = "footer-copyright"> Trekist pvt.limited all copyright © unresloved</div>
-  </div>
-</footer>
-
-<!--javascript========-->
-
-<script src="./index.js" type="text/javascript"></script>
-<script src="./shoes.js" type="text/javascript"></script>
-</body>
+    <script src="./index.js" type="text/javascript"></script>
+    <script src="./shoes.js" type="text/javascript"></script>
+  </body>
 </html>

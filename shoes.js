@@ -1,69 +1,72 @@
-function add_event(da) {
-  let right = document.getElementById("right");
-  for (let k = 0; k < da.length; k++) {
-    right.children[k].addEventListener("click", function () {
-      console.log(da[k]);
-      localStorage.setItem("profile_data", JSON.stringify(da[k]));
-      window.location.href = "./profile.html";
-    });
-  }
-}
+var type = "all";
+var all = true;
 
-async function display_shoes(shoes, all, type) {
-  let right = document.getElementById("right");
-  right.innerHTML = "";
-  if (shoes == undefined || shoes.length == 0) {
-    console.log("undefined");
-    right.innerHTML = `<h1 style="font-size: 40px; color:rgb(107, 107, 107);">NO DATA</h1>`;
-  } else {
-    for (let i = 0, j = 0; i < shoes.length; i++) {
-      if (all == true || type == shoes[i].type) {
-        right.innerHTML =
-          right.innerHTML +
-          `<div class='shoe'>
-      <img class='shoe_image' src="` +
-          shoes[i].image +
-          `" alt=''>
-      <p class='shoe_name'>` +
-          shoes[i].name +
-          ` </p>
-      <p class='shoe_price'> MRP : ` +
-          shoes[i].price +
-          ` ₹</p>
-    </div>`;
-      } else {
-        right.innerHTML =
-          right.innerHTML +
-          `<div class='shoe' style = 'display: none'>
-      <img class='shoe_image' src="` +
-          shoes[i].image +
-          `" alt=''>
-      <p class='shoe_name'>` +
-          shoes[i].name +
-          ` </p>
-      <p class='shoe_price'> MRP : ` +
-          shoes[i].price +
-          ` ₹</p>
-    </div>`;
-      }
+async function fetchShoes() {
+  try {
+    const response = await fetch("https://trekist.onrender.com/shoes");
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
     }
+    const products = await response.json();
 
-    add_event(shoes);
+    return products;
+  } catch (error) {
+    console.error("There has been a problem with your fetch operation:", error);
   }
 }
 
-let data_ = JSON.parse(localStorage.getItem("collection")).shoes;
+async function shoes_load() {
+  const data = await fetchShoes();
+  if (data != undefined)
+    document.getElementById("right").innerHTML =
+      "<p class='shoes_heading'>All</p>";
 
-console.log(data_);
+  console.log(data);
+  let count = 0;
+  data.forEach((element) => {
+    if (element.type == type || all == true) {
+      count++;
+    }
+  });
+  document.getElementById("right").innerHTML = `<p class='shoes_heading'>${
+    type[0].toUpperCase() + type.slice(1)
+  } (${count})</p>`;
 
-display_shoes(data_, true);
+  data.forEach((element) => {
+    if (element.type == type || all == true) {
+      console.log(element.name);
+      var shoe = document.createElement("div");
+      shoe.className = "shoe";
+      shoe.innerHTML = `<img class='shoe_image' src="
+      ${element.image} 
+    " alt=''>
 
-load_data();
+<p class='shoe_name'>
+    ${element.name}
+     </p>
 
-function filter_apply(type) {
-  if (type != "all") {
-    display_shoes(data_, false, type);
-  } else {
-    display_shoes(data_, true);
+<p class='shoe_price'> MRP :  
+    ${element.price}
+     ₹</p>`;
+
+      shoe.addEventListener("click", () => {
+        localStorage.setItem("profile_data", JSON.stringify(element));
+        window.location.href = "./profile.html";
+      });
+
+      document.getElementById("right").appendChild(shoe);
+    }
+  });
+}
+
+shoes_load();
+
+function filter_apply(type_) {
+  (type = type_), (all = false);
+  if (type_ == "all") {
+    all = true;
+    type = "all";
   }
+  document.getElementById("right").scrollTop = 0;
+  shoes_load();
 }

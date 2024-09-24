@@ -1,10 +1,11 @@
-async function loadProducts() {
+async function fetchCollections() {
   try {
-    const response = await fetch("data.json");
+    const response = await fetch("https://trekist.onrender.com/collections");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
     const products = await response.json();
+
     return products;
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
@@ -12,146 +13,35 @@ async function loadProducts() {
 }
 
 async function collection_load() {
-  const data = await loadProducts();
+  const data = await fetchCollections();
 
-  await localStorage.setItem("collection", JSON.stringify(data[0]));
+  data.forEach((element) => {
+    console.log(element.name);
+    var box = document.createElement("div");
+    box.className = "box";
+    box.innerHTML = `<div class="heading"> ${element.name}</div>`;
+    var container = document.createElement("div");
+    container.className = "container";
+    box.appendChild(container);
 
-  for (let i = 0; i < 4; i++) {
-    document.getElementById("most_popular").children[i].firstElementChild.src =
-      data[0].most_popular[i].image;
-    document.getElementById("most_popular").children[
-      i
-    ].lastElementChild.firstElementChild.innerHTML =
-      data[0].most_popular[i].name;
-    document.getElementById("most_popular").children[
-      i
-    ].lastElementChild.lastElementChild.innerHTML =
-      "MRP : " + data[0].most_popular[i].price + " ₹";
-    document
-      .getElementById("most_popular")
-      .children[i].addEventListener("click", function profile_data() {
-        let collection = localStorage.getItem("collection");
-        collection = JSON.parse(collection);
-        localStorage.setItem(
-          "profile_data",
-          JSON.stringify(collection.most_popular[i])
-        );
+    for (let i = 0; i < 4; i++) {
+      var sub_box = document.createElement("li");
+      sub_box.className = "sub_box";
+      sub_box.addEventListener("click", () => {
+        localStorage.setItem("profile_data", JSON.stringify(element.shoes[i]));
         window.location.href = "./profile.html";
       });
-  }
+      sub_box.innerHTML = `<img class="collection_image" src="${element.shoes[i].image}" alt="">
+            <div class="collection_name_box">
+                <p class="collection_name">${element.shoes[i].name}</p> 
+                <p class="collection_price"> MRP : ${element.shoes[i].price}</p>
 
-  for (let i = 0; i < 4; i++) {
-    document.getElementById("mostsell_formal").children[
-      i
-    ].firstElementChild.src = data[0].mostsell_formal[i].image;
-    document.getElementById("mostsell_formal").children[
-      i
-    ].lastElementChild.firstElementChild.innerHTML =
-      data[0].mostsell_formal[i].name;
-    document.getElementById("mostsell_formal").children[
-      i
-    ].lastElementChild.lastElementChild.innerHTML =
-      "MRP : " + data[0].mostsell_formal[i].price + " ₹";
+            </div>`;
+      box.lastElementChild.appendChild(sub_box);
+    }
 
-    document
-      .getElementById("mostsell_formal")
-      .children[i].addEventListener("click", function profile_data() {
-        let collection = localStorage.getItem("collection");
-        collection = JSON.parse(collection);
-        localStorage.setItem(
-          "profile_data",
-          JSON.stringify(collection.mostsell_formal[i])
-        );
-        window.location.href = "./profile.html";
-      });
-  }
-
-  for (let i = 0; i < 4; i++) {
-    document.getElementById("mostsell_sneakers").children[
-      i
-    ].firstElementChild.src = data[0].mostsell_sneakers[i].image;
-    document.getElementById("mostsell_sneakers").children[
-      i
-    ].lastElementChild.firstElementChild.innerHTML =
-      data[0].mostsell_sneakers[i].name;
-    document.getElementById("mostsell_sneakers").children[
-      i
-    ].lastElementChild.lastElementChild.innerHTML =
-      "MRP : " + data[0].mostsell_sneakers[i].price + " ₹";
-    document
-      .getElementById("mostsell_sneakers")
-      .children[i].addEventListener("click", function profile_data() {
-        let collection = localStorage.getItem("collection");
-        collection = JSON.parse(collection);
-        localStorage.setItem(
-          "profile_data",
-          JSON.stringify(collection.mostsell_sneakers[i])
-        );
-        window.location.href = "./profile.html";
-      });
-  }
-
-  for (let i = 0; i < 4; i++) {
-    document.getElementById("mostsell_casual").children[
-      i
-    ].firstElementChild.src = data[0].mostsell_casual[i].image;
-    document.getElementById("mostsell_casual").children[
-      i
-    ].lastElementChild.firstElementChild.innerHTML =
-      data[0].mostsell_casual[i].name;
-    document.getElementById("mostsell_casual").children[
-      i
-    ].lastElementChild.lastElementChild.innerHTML =
-      "MRP : " + data[0].mostsell_casual[i].price + " ₹";
-    document
-      .getElementById("mostsell_casual")
-      .children[i].addEventListener("click", function profile_data() {
-        let collection = localStorage.getItem("collection");
-        collection = JSON.parse(collection);
-        localStorage.setItem(
-          "profile_data",
-          JSON.stringify(collection.mostsell_casual[i])
-        );
-        window.location.href = "./profile.html";
-      });
-  }
-
-  for (let i = 0; i < 4; i++) {
-    document.getElementById("mostsell_sports").children[
-      i
-    ].firstElementChild.src = data[0].mostsell_sports[i].image;
-    document.getElementById("mostsell_sports").children[
-      i
-    ].lastElementChild.firstElementChild.innerHTML =
-      data[0].mostsell_sports[i].name;
-    document.getElementById("mostsell_sports").children[
-      i
-    ].lastElementChild.lastElementChild.innerHTML =
-      "MRP : " + data[0].mostsell_sports[i].price + " ₹";
-    document
-      .getElementById("mostsell_sports")
-      .children[i].addEventListener("click", function profile_data() {
-        let collection = localStorage.getItem("collection");
-        collection = JSON.parse(collection);
-        localStorage.setItem(
-          "profile_data",
-          JSON.stringify(collection.mostsell_sports[i])
-        );
-        window.location.href = "./profile.html";
-      });
-  }
+    document.getElementById("collection").appendChild(box);
+  });
 }
 
 collection_load();
-
-let switch_ = 0;
-
-function menu_switch() {
-  if (switch_ == 0) {
-    document.getElementById("menu").style.display = "flex";
-    switch_ = 1;
-  } else {
-    document.getElementById("menu").style.display = "none";
-    switch_ = 0;
-  }
-}
