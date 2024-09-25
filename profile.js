@@ -107,7 +107,6 @@ document.getElementById("like_profile").addEventListener("click", () => {
         "src",
         "./source/menu_icons/dislike_shoe.svg"
       );
-      alert("liked succesfully");
     }
     ///dislike
     else {
@@ -117,10 +116,8 @@ document.getElementById("like_profile").addEventListener("click", () => {
         "src",
         "./source/menu_icons/like_shoe.svg"
       );
-      prompt("like removed succesfully");
     }
   }
 });
 
-// pop-up 
-
+// pop-up
