@@ -17,9 +17,8 @@ async function fetchShoes() {
 
 async function shoes_load() {
   const data = await fetchShoes();
-  if (data != undefined)
-    document.getElementById("right").innerHTML =
-      "<p class='shoes_heading'>All</p>";
+
+  if (data != undefined) document.getElementById("right").innerHTML = "";
 
   console.log(data);
   let count = 0;
@@ -28,9 +27,10 @@ async function shoes_load() {
       count++;
     }
   });
-  document.getElementById("right").innerHTML = `<p class='shoes_heading'>${
-    type[0].toUpperCase() + type.slice(1)
-  } (${count})</p>`;
+  if (type != "all")
+    document.getElementById("right").innerHTML = `<p class='shoes_heading'>${
+      type[0].toUpperCase() + type.slice(1)
+    } (${count})</p>`;
 
   data.forEach((element) => {
     if (element.type == type || all == true) {
@@ -67,6 +67,7 @@ function filter_apply(type_) {
     all = true;
     type = "all";
   }
-  document.getElementById("right").scrollTop = 0;
+
   shoes_load();
+  document.getElementById("right").scrollTop = 0;
 }

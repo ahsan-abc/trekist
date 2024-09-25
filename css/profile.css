@@ -16,6 +16,17 @@
   align-items: center;
   justify-content: center;
 }
+
+#like_profile {
+  width: 27px;
+  height: 27px;
+  color: black;
+  position: relative;
+  display: flex;
+  bottom: 430px;
+  right: -40px;
+}
+
 #profile_price {
   width: 50%;
   display: flex;
@@ -105,6 +116,17 @@
     height: auto;
     background-color: rgb(255, 255, 255);
   }
+
+  #like_profile {
+    width: 27px;
+    height: 27px;
+    color: black;
+    position: relative;
+    display: flex;
+    bottom: 390px;
+    right: -10px;
+  }
+
   #profile_price {
     width: 100%;
     min-height: 600px;

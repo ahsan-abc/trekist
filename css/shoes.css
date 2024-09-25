@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: center;
   font-family: "poppins", sans-serif;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
@@ -57,10 +58,11 @@
 }
 
 .shoes_heading {
-  width: calc(100% - 30px);
+  width: calc(100% - 60px);
   color: black;
-  margin-left: 30px;
-  margin-top: 5px;
+  margin-left: 60px;
+  margin-top: 12px;
+  font-family: "poppins", sans-serif;
 }
 
 .shoe {
@@ -110,10 +112,17 @@
     height: 80%;
   }
 
+  .shoes_heading {
+    width: calc(100% - 30px);
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
   .shoe {
     width: 150px;
     height: 200px;
-    margin: 10px;
+    margin: 15px 10px;
   }
 }
 

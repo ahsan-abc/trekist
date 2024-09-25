@@ -46,3 +46,81 @@ function right_slider() {
   else show++;
   change();
 }
+
+if (localStorage.getItem("mylike") != null)
+  JSON.parse(localStorage.getItem("mylike")).forEach((element) => {
+    console.log(element);
+    if (JSON.parse(localStorage.getItem("profile_data"))._id == element._id) {
+      document
+        .getElementById("like_profile")
+        .firstElementChild.setAttribute(
+          "src",
+          "./source/menu_icons/like_shoe.svg"
+        );
+    }
+  });
+
+///like event
+
+document.getElementById("like_profile").addEventListener("click", () => {
+  let like_profile = document.getElementById("like_profile");
+  let profile_data = localStorage.getItem("profile_data");
+  let mylike = localStorage.getItem("mylike");
+
+  console.log(localStorage.getItem("profile_data"));
+  if (mylike == null) {
+    mylike = [JSON.parse(profile_data)];
+    localStorage.setItem("mylike", JSON.stringify(mylike));
+    like_profile.firstElementChild.setAttribute(
+      "src",
+      "./source/menu_icons/like_shoe.svg"
+    );
+    console.log("nullllll");
+  } else {
+    console.log("else start");
+    mylike = JSON.parse(mylike);
+    profile_data = JSON.parse(profile_data);
+
+    let profile_value = -1;
+    mylike.forEach((element, index) => {
+      if (element._id == profile_data._id) {
+        console.log("dislike");
+        profile_value = index;
+        return false;
+      } else {
+        console.log("like");
+
+        return true;
+      }
+    });
+
+    console.log("else end");
+    //like
+    if (profile_value != -1) {
+      for (let j = profile_value; j < mylike.length - 1; j++) {
+        mylike[j] = mylike[j + 1];
+      }
+      mylike.pop();
+      localStorage.setItem("mylike", JSON.stringify(mylike));
+
+      like_profile.firstElementChild.setAttribute(
+        "src",
+        "./source/menu_icons/dislike_shoe.svg"
+      );
+      alert("liked succesfully");
+    }
+    ///dislike
+    else {
+      mylike[mylike.length] = profile_data;
+      localStorage.setItem("mylike", JSON.stringify(mylike));
+      like_profile.firstElementChild.setAttribute(
+        "src",
+        "./source/menu_icons/like_shoe.svg"
+      );
+      prompt("like removed succesfully");
+    }
+  }
+});
+
+// pop-up 
+

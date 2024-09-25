@@ -8,18 +8,28 @@
   </head>
   <body>
     <h1 style="color: red">MY LIKE</h1>
-    <div class="frame" id="mylike">
-      <div class="shoe">
-        <img
+    <div class="frame" id="mylike"></div>
+  </body>
+
+  <script>
+    JSON.parse(localStorage.getItem("mylike")).forEach((element) => {
+      let like_shoe = document.createElement("div");
+      like_shoe.className = "shoe";
+      like_shoe.innerHTML = `<img
           class="shoe_image"
-          src="` +
-            shoes[i].image +
-            `"
+          src="${element.image}"
+            
           alt=""
         />
-        <p class="shoe_name">` + shoes[i].name + `</p>
-        <p class="shoe_price">MRP : ` + shoes[i].price + ` ₹</p>
-      </div>
-    </div>
-  </body>
+        <p class="shoe_name">${element.name}</p>
+        <p class="shoe_price">MRP : ${element.price} ₹</p>`;
+
+      like_shoe.addEventListener("click", () => {
+        localStorage.setItem("profile_data", JSON.stringify(element));
+        window.location.href = "./profile.html";
+      });
+      document.getElementById("mylike").appendChild(like_shoe);
+    });
+    console.log("hello");
+  </script>
 </html>
