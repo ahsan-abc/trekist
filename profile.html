@@ -29,17 +29,27 @@
       </div>
       <div>
         <nav>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#reviews">Reviews</a></li>
           <li>
-            <a href="./index.html" style="text-decoration: none; color: white"
-              >Home</a
-            >
+            <a href="./mylike.html"
+              ><img src="./source/menu_icons/like.svg" alt=""
+            /></a>
           </li>
-          <li>Contact</li>
-          <li>About</li>
-          <li>FAQ</li>
+          <li>
+            <a href="./mycart.html"
+              ><img src="./source/menu_icons/cart.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="./myorder.html"
+              ><img src="./source/menu_icons/order.svg" alt=""
+            /></a>
+          </li>
         </nav>
       </div>
     </header>
+
     <!--profile===========================-->
     <div id="profile">
       <div id="profile_image">
@@ -134,8 +144,15 @@
           Ea sed eius error eum autem. Eligendi error aspernatur omnis facilis
           est sint ab, accusamus corporis obcaecati eum maiores iure.
         </p>
-        <button>Add to cart</button>
-        <button>Buy</button>
+        <div id="select-size">
+          <div onclick="set_size(5)">5</div>
+          <div onclick="set_size(6)">6</div>
+          <div onclick="set_size(7)">7</div>
+          <div onclick="set_size(8)">8</div>
+          <div onclick="set_size(9)">9</div>
+        </div>
+        <button id="cart-button">Add to cart</button>
+        <button id="buy-button">Buy</button>
       </div>
     </div>
 

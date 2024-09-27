@@ -4,8 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/mycart.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 style="color: red">MY CART</h1>
+    <h2
+      style="
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        padding: 15px;
+      "
+    >
+      MY CART
+    </h2>
+    <div id="cart">
+      <div id="cart-products">
+        <div id="cart-products-box"></div>
+        <div id="cart-products-order">
+          <button>Place Order</button>
+        </div>
+      </div>
+      <div id="cart-price">
+        <div id="cart-price-box"></div>
+      </div>
+    </div>
   </body>
+
+  <script>
+    let mycart = JSON.parse(localStorage.getItem("mycart"));
+
+    if (mycart != null || mycart != []) {
+      for (let i = 0; i < mycart.length; i++) {
+        let cart_shoe = document.createElement("div");
+        cart_shoe.className = "cart-shoe";
+
+        cart_shoe.innerHTML = `<img
+              class="cart-shoe-image"
+              src="${mycart[i].image}"
+            />
+            <div class="cart-shoe-details">
+              <div class="cart-shoe-name">${mycart[i].name}</div>
+              <div class="cart-shoe-size">Size : ${mycart[i].set_size}</div>
+              <div class="cart-shoe-price">MRP : ${mycart[i].price} RS</div>
+              <button class="cart-shoe-delete">remove </button>`;
+
+        /*cart remove event*/
+        cart_shoe.lastElementChild.addEventListener("click", () => {
+          console.log("remove");
+          let mycart_ = JSON.parse(localStorage.getItem("mycart"));
+          for (let j = 0; j < mycart_.length; j++) {
+            if (
+              document.getElementById("cart-products-box").children[j] ==
+              cart_shoe
+            ) {
+              for (let k = j; k < mycart_.length - 1; k++) {
+                mycart_[k] = mycart_[k + 1];
+              }
+              mycart_.pop();
+              localStorage.setItem("mycart", JSON.stringify(mycart_));
+              window.location.href = "./mycart.html";
+
+              return;
+            }
+          }
+        });
+        document.getElementById("cart-products-box").appendChild(cart_shoe);
+      }
+    }
+  </script>
 </html>

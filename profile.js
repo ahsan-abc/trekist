@@ -19,6 +19,28 @@ for (let i = 0; i < 5; i++) {
 
 slider_indicator.firstElementChild.style.border = "1.3px red solid";
 
+// add size in profile-->
+
+function set_size(size) {
+  let profile_data = localStorage.getItem("profile_data");
+  let select_size = document.getElementById("select-size");
+  profile_data = JSON.parse(profile_data);
+  profile_data.set_size = size;
+  localStorage.setItem("profile_data", JSON.stringify(profile_data));
+  for (l = 0; l < 5; l++) {
+    select_size.children[l].style.border = "white solid 1.6px";
+    select_size.children[l].style.boxShadow =
+      "1px 1px 1px 1px rgb(182, 181, 181)";
+    ("0px 0px 0px 0px ");
+    select_size.children[l].style.color = "black";
+  }
+  select_size.children[size - 5].style.border = "red solid 1.6px";
+  select_size.children[size - 5].style.boxShadow = "0px 0px 0px 0px ";
+  select_size.children[size - 5].style.color = "red";
+}
+set_size(6);
+//<--- add size in profile
+
 function change() {
   for (i = 0; i < 5; i++) {
     if (i == show) {
@@ -47,7 +69,7 @@ function right_slider() {
   change();
 }
 
-if (localStorage.getItem("mylike") != null)
+if (JSON.parse(localStorage.getItem("mylike")) != null) {
   JSON.parse(localStorage.getItem("mylike")).forEach((element) => {
     console.log(element);
     if (JSON.parse(localStorage.getItem("profile_data"))._id == element._id) {
@@ -59,6 +81,7 @@ if (localStorage.getItem("mylike") != null)
         );
     }
   });
+}
 
 ///like event
 
@@ -68,7 +91,7 @@ document.getElementById("like_profile").addEventListener("click", () => {
   let mylike = localStorage.getItem("mylike");
 
   console.log(localStorage.getItem("profile_data"));
-  if (mylike == null) {
+  if (mylike == null || JSON.parse(mylike) == null) {
     mylike = [JSON.parse(profile_data)];
     localStorage.setItem("mylike", JSON.stringify(mylike));
     like_profile.firstElementChild.setAttribute(
@@ -117,6 +140,21 @@ document.getElementById("like_profile").addEventListener("click", () => {
         "./source/menu_icons/like_shoe.svg"
       );
     }
+  }
+});
+
+///cart event
+
+document.getElementById("cart-button").addEventListener("click", () => {
+  let profile_data = JSON.parse(localStorage.getItem("profile_data"));
+  let mycart = localStorage.getItem("mycart");
+
+  if (mycart == null || JSON.parse(mycart) == null) {
+    localStorage.setItem("mycart", JSON.stringify([profile_data]));
+  } else {
+    mycart = JSON.parse(mycart);
+    mycart[mycart.length] = profile_data;
+    localStorage.setItem("mycart", JSON.stringify(mycart));
   }
 });
 
