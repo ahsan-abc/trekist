@@ -163,9 +163,11 @@ function cart_add_effect() {
   console.log("cart");
   document.getElementById("cart-button").style.color = "black";
   document.getElementById("cart-button").style.background = "white";
+  document.getElementById("cart-button").innerText = "Added Successfully";
 
   window.setTimeout(() => {
     document.getElementById("cart-button").style.color = "white";
     document.getElementById("cart-button").style.background = "black";
-  }, 900);
+    document.getElementById("cart-button").innerText = "Add to Cart";
+  }, 1150);
 }
