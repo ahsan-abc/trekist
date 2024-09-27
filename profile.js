@@ -158,8 +158,8 @@ document.getElementById("cart-button").addEventListener("click", () => {
   }
 });
 
-// pop-up
-function pop_up(str) {
+// cart_add_effect
+function cart_add_effect() {
   console.log("cart");
   document.getElementById("cart-button").style.color = "black";
   document.getElementById("cart-button").style.background = "white";
@@ -167,5 +167,5 @@ function pop_up(str) {
   window.setTimeout(() => {
     document.getElementById("cart-button").style.color = "white";
     document.getElementById("cart-button").style.background = "black";
-  }, 1300);
+  }, 900);
 }

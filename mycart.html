@@ -36,8 +36,9 @@
 
   <script>
     let mycart = JSON.parse(localStorage.getItem("mycart"));
+    let total_price = 0;
 
-    if (mycart != null || mycart != []) {
+    if (mycart != null && mycart != [] && mycart.length != 0) {
       for (let i = 0; i < mycart.length; i++) {
         let cart_shoe = document.createElement("div");
         cart_shoe.className = "cart-shoe";
@@ -49,7 +50,7 @@
             <div class="cart-shoe-details">
               <div class="cart-shoe-name">${mycart[i].name}</div>
               <div class="cart-shoe-size">Size : ${mycart[i].set_size}</div>
-              <div class="cart-shoe-price">MRP : ${mycart[i].price} RS</div>
+              <div class="cart-shoe-price">MRP : ${mycart[i].price} ₹</div>
               <button class="cart-shoe-delete">remove </button>`;
 
         /*cart remove event*/
@@ -74,6 +75,49 @@
         });
         document.getElementById("cart-products-box").appendChild(cart_shoe);
       }
+
+      mycart.forEach((element) => {
+        total_price = total_price + element.price;
+      });
+    } else {
+      console.log("else");
+      document.getElementById(
+        "cart-products-box"
+      ).innerHTML = `<p style="width:100% ; height:100%; display:flex; justify-content: center;
+  align-items: center; color:rgb(128, 128, 128);">Your cart is empty!</p>`;
     }
+
+    /*cart price calculate*/
+
+    document.getElementById("cart-price-box").innerHTML = `  <li
+            style="
+              color: rgb(141, 141, 141);
+              font-weight: bold;
+              border-bottom: 0.2px solid rgb(174, 174, 174);
+            "
+          >
+            PRICE DETAILS
+          </li>
+          <li>
+            <p>Price (${mycart.length} items)</p>
+            <p>${total_price} ₹</p>
+          </li>
+          <li>
+            <p>Packaging Fee</p>
+            <p>+ 0 ₹</p>
+          </li>
+          <li>
+            <p>Delivery Charges</p>
+            <p>+ 0 ₹</p>
+          </li>
+
+          <li>
+            <p>Coupons for you</p>
+            <p>− 0 ₹</p>
+          </li>
+          <li style="border-top: 2px dotted black">
+            <p>Total Amount</p>
+            <p>${total_price} ₹</p>
+          </li>`;
   </script>
 </html>
