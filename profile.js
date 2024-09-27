@@ -38,7 +38,7 @@ function set_size(size) {
   select_size.children[size - 5].style.boxShadow = "0px 0px 0px 0px ";
   select_size.children[size - 5].style.color = "red";
 }
-set_size(6);
+set_size(5);
 //<--- add size in profile
 
 function change() {
@@ -159,3 +159,13 @@ document.getElementById("cart-button").addEventListener("click", () => {
 });
 
 // pop-up
+function pop_up(str) {
+  console.log("cart");
+  document.getElementById("cart-button").style.color = "black";
+  document.getElementById("cart-button").style.background = "white";
+
+  window.setTimeout(() => {
+    document.getElementById("cart-button").style.color = "white";
+    document.getElementById("cart-button").style.background = "black";
+  }, 1300);
+}

@@ -176,3 +176,19 @@
     justify-content: space-between;
   }
 }
+
+/*pop-up*/
+
+#pop-up {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.584);
+  color: white;
+  border-radius: 10px;
+  top: 5px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}

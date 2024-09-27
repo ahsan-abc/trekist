@@ -83,6 +83,8 @@
           alt=""
           style="z-index: -1"
         />
+        <div id="pop-up">Added</div>
+
         <div id="slider_navigation">
           <div class="navigation_button" onclick="left_slider()">&#8249;</div>
 
@@ -151,7 +153,9 @@
           <div onclick="set_size(8)">8</div>
           <div onclick="set_size(9)">9</div>
         </div>
-        <button id="cart-button">Add to cart</button>
+        <button id="cart-button" onclick="pop_up('cart Added')">
+          Add to cart
+        </button>
         <button id="buy-button">Buy</button>
       </div>
     </div>
