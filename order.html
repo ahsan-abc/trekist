@@ -9,6 +9,14 @@
   <body>
     <div id="order">
       <form action="" id="order-form">
+        <h2
+          style="
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(58, 58, 58);
+          "
+        >
+          ORDER FORM
+        </h2>
         <div class="form-group">
           <label for="">Name</label><input type="text" required name="name" />
         </div>
@@ -76,9 +84,55 @@
           ></textarea>
         </div>
 
-        <button type="submit">confirm order</button>
+        <button id="order-submit" type="submit">CONFIRM ORDER</button>
       </form>
-      <div id="order-details"></div>
+      <div
+        id="order-details"
+        style="
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: rgb(58, 58, 58);
+        "
+      ></div>
     </div>
   </body>
+
+  <script>
+    const today = new Date();
+    const deliveryDate = new Date(today);
+    deliveryDate.setDate(today.getDate() + 3); // Add 3 days to today's date
+
+    const formattedDeliveryDate = deliveryDate.toLocaleDateString();
+    console.log("Delivery Date: ", formattedDeliveryDate);
+    ///////////////////////////////
+    let order = JSON.parse(localStorage.getItem("myorder"));
+
+    let items_name = [];
+
+    order.products.forEach((element) => {
+      items_name[items_name.length] = element.name;
+    });
+
+    document.getElementById("order-details").innerHTML = `
+      <h2>ORDER DETAILS</h2>
+        <li>
+          <p>Total items</p>
+          <p>${order.products.length}</p>
+        </li>
+        <li>
+          <p> Items Name</p>
+          <p>${items_name}</p>
+        </li>
+        <li>
+          <p>Total Payable Amount</p>
+          <p>${order.amount}₹</p>
+        </li>
+        <li>
+          <p>Payment Method</p>
+          <p>Cash On delivery</p>
+        </li>
+        <li>
+          <p>Expected deliver date</p>
+          <p>${formattedDeliveryDate}</p>
+        </li>`;
+  </script>
 </html>

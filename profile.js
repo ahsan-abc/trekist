@@ -171,3 +171,14 @@ function cart_add_effect() {
     document.getElementById("cart-button").innerText = "Add to Cart";
   }, 1150);
 }
+
+//buy button event
+
+document.getElementById("buy-button").addEventListener("click", () => {
+  let product = JSON.parse(localStorage.getItem("profile_data"));
+
+  let myorder = { products: [product], amount: product.price };
+
+  localStorage.setItem("myorder", JSON.stringify(myorder));
+  window.location.href = "./order.html";
+});

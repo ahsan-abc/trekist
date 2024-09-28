@@ -25,7 +25,7 @@
       <div id="cart-products">
         <div id="cart-products-box"></div>
         <div id="cart-products-order">
-          <button>Place Order</button>
+          <button id="buy-cart">Place Order</button>
         </div>
       </div>
       <div id="cart-price">
@@ -119,5 +119,15 @@
             <p>Total Amount</p>
             <p>${total_price} ₹</p>
           </li>`;
+
+    document.getElementById("buy-cart").addEventListener("click", () => {
+      if (mycart != null && mycart.length != 0) {
+        localStorage.setItem(
+          "myorder",
+          JSON.stringify({ products: mycart, amount: total_price })
+        );
+        window.location.href = "./order.html";
+      }
+    });
   </script>
 </html>

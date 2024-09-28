@@ -7,22 +7,17 @@
 
 #order-form {
   width: 40%;
-  padding: 5%;
   background-color: rgba(245, 155, 155, 0.406);
-  height: 500px;
+  height: fit-content;
+  padding-bottom: 10px;
   display: flex;
-  flex-direction: column-reverse;
-}
-#order-details {
-  margin-left: 5%;
-  width: 40%;
-  background-color: rgba(245, 155, 155, 0.406);
-
-  height: 500px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-group {
-  margin: 20px 0;
+  width: 70%;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
 }
@@ -36,7 +31,7 @@
   border: 0;
   box-shadow: 0px 0px 1px 0px black;
   height: 30px;
-  width: 48%;
+  width: 80%;
   padding-left: 2%;
   font-size: 0.9rem;
   color: rgb(61, 61, 61);
@@ -46,7 +41,7 @@
 .form-group > textarea {
   border: 0;
   box-shadow: 0px 0px 1px 0px black;
-  width: 48%;
+  width: 80%;
   padding-left: 2%;
   font-size: 0.9rem;
   color: rgb(61, 61, 61);
@@ -58,13 +53,60 @@
   outline: red 1px solid;
 }
 
+#order-submit {
+  margin: 5px 0;
+
+  width: 40%;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  font-size: 1.2rem;
+  border: 0;
+  box-shadow: 0px 0px 2px 0px black;
+}
+
+#order-details {
+  margin-left: 5%;
+  width: 40%;
+  background-color: rgba(245, 155, 155, 0.406);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-details > li {
+  list-style: none;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#order-details > li > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  width: 50%;
+}
+
 @media screen and (max-width: 600px) {
   #order-form {
-    width: 80%;
-    padding: 5%;
+    width: 90%;
+
     margin: 10px 5%;
-    height: 500px;
+    height: fit-content;
+    padding-bottom: 10px;
   }
+  .form-group > input,
+  .form-group > select {
+    width: 100%;
+  }
+
+  .form-group > textarea {
+    width: 100%;
+  }
+
   #order-details {
     width: 80%;
     padding: 5%;
