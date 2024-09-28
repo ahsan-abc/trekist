@@ -35,11 +35,20 @@ const collectionSchema = new mongoose.Schema({
   name: String,
   shoes: [Object], // Array of image URLs
 });
+// schema for the 'order' collection
+const orderSchema = new mongoose.Schema({
+  product: Object,
+  address: Object,
+  status: String,
+  date: String,
+});
 
 // model for the 'shoes' collection
 const Shoes = mongoose.model("shoes", shoesSchema);
 // model for the 'collection' collection
 const Collection = mongoose.model("Collection", collectionSchema, "collection");
+// model for the 'order' collection
+const Order = mongoose.model("Order", orderSchema);
 
 //<-------send  ----------->
 
@@ -66,6 +75,41 @@ app.get("/collections", async (req, res) => {
     res.json(data); // Send shoes data as JSON
   }
   hello();
+});
+
+//<------------ recive order--------------->
+app.post("/order", async (request, response) => {
+  console.log("post /order");
+  async function hello(req, res) {
+    console.log("put /order");
+
+    const data = await req.body;
+    console.log(data.order);
+    /////////////////////////////////
+
+    const newOrder = new Order({
+      product: data.order,
+      address: data.address,
+      status: "On the way",
+      date: data.date,
+    });
+    // Save the new user to the database
+    newOrder
+      .save()
+      .then((doc) => {
+        console.log(`New user added: ${doc}`);
+        res.send(doc._id);
+      })
+      .catch((err) => {
+        console.error("Error adding user:", err);
+        res.send("error");
+      })
+      .finally(() => {
+        // Close the connection after the operation
+        console.log("order process end");
+      });
+  }
+  hello(request, response);
 });
 
 //<-------listen at the port 8000----------->

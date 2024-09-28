@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="order">
-      <form action="" id="order-form">
+      <div id="order-form">
         <h2
           style="
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,15 +18,16 @@
           ORDER FORM
         </h2>
         <div class="form-group">
-          <label for="">Name</label><input type="text" required name="name" />
+          <label for="">Name</label
+          ><input type="text" required name="name" class="form-data" />
         </div>
         <div class="form-group">
           <label for="">Mob no</label
-          ><input type="number" required name="mob" />
+          ><input type="number" required name="mob" class="form-data" />
         </div>
         <div class="form-group">
           <label for="">State</label
-          ><select id="states" name="states" required name="state">
+          ><select id="states" name="state" required class="form-data">
             <option value="andhra_pradesh">Andhra Pradesh</option>
             <option value="arunachal_pradesh">Arunachal Pradesh</option>
             <option value="assam">Assam</option>
@@ -66,26 +67,26 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="">City</label><input type="text" required name="city" />
+          <label for="">City</label
+          ><input type="text" required name="city" class="form-data" />
         </div>
         <div class="form-group">
           <label for="">Pincode</label
-          ><input type="number" required name="pincode" />
+          ><input type="number" required name="pincode" class="form-data" />
         </div>
         <div class="form-group">
           <label for="">Local Address</label>
           <textarea
-            name=""
-            id=""
             cols="30"
             rows="4"
             required
             name="localadd"
+            class="form-data"
           ></textarea>
         </div>
 
         <button id="order-submit" type="submit">CONFIRM ORDER</button>
-      </form>
+      </div>
       <div
         id="order-details"
         style="
@@ -93,13 +94,15 @@
           color: rgb(58, 58, 58);
         "
       ></div>
+
+      <h1 id="test"></h1>
     </div>
   </body>
 
   <script>
     const today = new Date();
     const deliveryDate = new Date(today);
-    deliveryDate.setDate(today.getDate() + 3); // Add 3 days to today's date
+    deliveryDate.setDate(today.getDate() + 5); // Add 3 days to today's date
 
     const formattedDeliveryDate = deliveryDate.toLocaleDateString();
     console.log("Delivery Date: ", formattedDeliveryDate);
@@ -134,5 +137,100 @@
           <p>Expected deliver date</p>
           <p>${formattedDeliveryDate}</p>
         </li>`;
+
+    ///form data
+
+    let fi = document.getElementsByClassName("form-data");
+    document.getElementById("order-submit").addEventListener("click", () => {
+      let name = fi[0].value;
+      let mob = fi[1].value;
+      let city = fi[2].value;
+      let state = fi[3].value;
+      let pincode = fi[4].value;
+      let localadd = fi[5].value;
+
+      console.log(name, mob, city, state, pincode, localadd);
+      console;
+      if (
+        name != "" &&
+        mob != "" &&
+        city != "" &&
+        state != "" &&
+        pincode != "" &&
+        localadd != ""
+      ) {
+        function getRecipes(product) {
+          let data = {
+            order: product, // Assuming `order` is defined elsewhere
+            address: {
+              name: name, // Assuming these are defined elsewhere
+              mob: mob,
+              city: city,
+              state: state,
+              pincode: pincode,
+              localadd: localadd,
+            },
+            date: formattedDeliveryDate, // Assuming this is defined elsewhere
+          };
+
+          let options = {
+            method: "POST",
+            headers: {
+              "Content-type": "application/json; charset=UTF-8",
+            },
+            body: JSON.stringify(data),
+          };
+
+          // Fetch request to the backend
+          fetch("http://localhost:8000/order", options)
+            .then((response) => {
+              // Check if the response is OK (status 200-299)
+
+              if (!response.ok) {
+                console.error("Response error:", response);
+                return;
+              }
+
+              // Parse the response JSON and return it to the next .then()
+              return response.text();
+            })
+            .then((result) => {
+              // Log the result from the backend (e.g., { ids: [...] })
+              console.log("Response from backend:", result);
+
+              if (result != "error") {
+                let orderconfirm = localStorage.getItem("orderconfirm");
+
+                if (orderconfirm == [] || orderconfirm == null) {
+                  orderconfirm = [result];
+                } else {
+                  orderconfirm = JSON.parse(orderconfirm);
+                  orderconfirm[orderconfirm.length] = result;
+                }
+                localStorage.setItem(
+                  "orderconfirm",
+                  JSON.stringify(orderconfirm)
+                );
+
+                setTimeout(() => {
+                  window.location.href = "./myorder.html";
+                }, 3000);
+              } else {
+                console.log("order error ");
+              }
+            })
+            .catch((error) => {
+              console.error("Fetch error:", error);
+            });
+        }
+
+        // Call the function
+        order.products.forEach((element) => {
+          getRecipes(element);
+        });
+      } else {
+        console.log("fill your form");
+      }
+    });
   </script>
 </html>
