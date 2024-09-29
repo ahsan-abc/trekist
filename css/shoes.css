@@ -140,29 +140,58 @@
 
 /* loading  animation */
 
+/*loading*/
 .loader {
-  width: 50px;
-  --b: 8px;
-  aspect-ratio: 1;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background: #ff0000;
   border-radius: 50%;
-  padding: 1px;
-  background: conic-gradient(#0000 10%, #ff0000) content-box;
-  -webkit-mask: repeating-conic-gradient(
-      #0000 0deg,
-      #000 1deg 20deg,
-      #0000 21deg 36deg
-    ),
-    radial-gradient(
-      farthest-side,
-      #0000 calc(100% - var(--b) - 1px),
-      #000 calc(100% - var(--b))
-    );
-  -webkit-mask-composite: destination-in;
-  mask-composite: intersect;
-  animation: l4 1s infinite steps(10);
+  animation: ellipseAnimation 2s linear infinite;
 }
-@keyframes l4 {
-  to {
-    transform: rotate(1turn);
+
+@keyframes ellipseAnimation {
+  0% {
+    border-radius: 50%;
+  }
+
+  12.5% {
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+  }
+
+  25% {
+    border-radius: 0 0 50% 50%;
+    transform: rotate(90deg);
+  }
+
+  37.5% {
+    border-radius: 0 0 0 50%;
+    transform: rotate(135deg);
+  }
+
+  50% {
+    border-radius: 0;
+    transform: rotate(180deg);
+  }
+
+  62.5% {
+    border-radius: 50% 0 0 0;
+    transform: rotate(225deg);
+  }
+
+  75% {
+    border-radius: 50% 50% 0 0;
+    transform: rotate(270deg);
+  }
+
+  87.5% {
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(315deg);
+  }
+
+  100% {
+    border-radius: 50%;
+    transform: rotate(360deg);
   }
 }
