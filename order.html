@@ -142,10 +142,19 @@
 
     let fi = document.getElementsByClassName("form-data");
     document.getElementById("order-submit").addEventListener("click", () => {
+      document.getElementById("order-submit").style.background = "white";
+      document.getElementById("order-submit").style.color = "red";
+      document.getElementById("order-submit").innerHTML = "wait a moment";
+
+      setTimeout(() => {
+        document.getElementById("order-submit").style.background = "red";
+        document.getElementById("order-submit").style.color = "white";
+        document.getElementById("order-submit").innerHTML = "CONFIRM ORDER";
+      }, 2000);
       let name = fi[0].value;
       let mob = fi[1].value;
-      let city = fi[2].value;
-      let state = fi[3].value;
+      let state = fi[2].value;
+      let city = fi[3].value;
       let pincode = fi[4].value;
       let localadd = fi[5].value;
 
@@ -233,6 +242,7 @@
         getRecipes(order.products);
       } else {
         console.log("fill your form");
+        alert("Fill the form properly");
       }
     });
   </script>

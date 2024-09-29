@@ -2,3 +2,128 @@
   padding: 0;
   margin: 0;
 }
+
+#confirm-orders {
+  height: calc(100vh - 70px);
+  width: 100%;
+
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.confirm-order {
+  margin-left: 20px;
+  height: 150px;
+  width: calc(100% - 4%);
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  box-shadow: 0px 0px 1px 0px black;
+}
+
+.confirm-order > img {
+  height: 100%;
+}
+.confirm-order-details {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.confirm-order-details > li {
+  list-style: none;
+  font-size: 0.9rem;
+}
+.confirm-order-address {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-left: 30px;
+}
+
+.confirm-order-address > li {
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 600px) {
+  .confirm-order {
+    height: 120px;
+  }
+  .confirm-order-details {
+    margin-left: 10px;
+  }
+  .confirm-order-details > li {
+    font-size: 0.7rem;
+  }
+
+  .confirm-order-address {
+    margin-left: 10px;
+  }
+  .confirm-order-address > li {
+    font-size: 0.7rem;
+  }
+}
+
+/*loading*/
+/*.loader {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  animation:ellipseAnimation 2s linear infinite;
+}
+
+@keyframes ellipseAnimation {
+  0% {
+    border-radius: 50%;
+  }
+
+  12.5% {
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+  }
+
+  25% {
+    border-radius: 0 0 50% 50%;
+    transform: rotate(90deg);
+  }
+
+  37.5% {
+    border-radius: 0 0 0 50%;
+    transform: rotate(135deg);
+  }
+
+  50% {
+    border-radius: 0;
+    transform: rotate(180deg);
+  }
+
+  62.5% {
+    border-radius: 50% 0 0 0;
+    transform: rotate(225deg);
+  }
+
+  75% {
+    border-radius: 50% 50% 0 0;
+    transform: rotate(270deg);
+  }
+
+  87.5% {
+     border-radius: 50% 50% 50% 0;
+    transform: rotate(315deg);
+  }
+
+  100% {
+     border-radius: 50%;
+    transform: rotate(360deg);
+  }
+}
+     */

@@ -133,6 +133,48 @@ app.post("/order", async (request, response) => {
   hello(request, response);
 });
 
+//<-------send confirm order----------->
+/*app.POST("/confirmorder", async (req, res) => {
+  async function hello(request, response) {
+    console.log(request.body);
+   
+    console.log(results);
+    console.log("get / order");
+    res.json({ yo: 123 }); // Send shoes data as JSON
+  }
+  hello(req, res);
+});
+*/
+app.post("/confirmorder", async (request, response) => {
+  console.log("post /confirmorder");
+  async function hello(req, res) {
+    console.log("put /order");
+
+    const data = await req.body;
+    console.log("data", data);
+
+    /////////////////////////////////
+    const ids = data;
+    const objectIds = ids.map((id) => new mongoose.Types.ObjectId(id));
+    Order.find({ _id: { $in: objectIds } })
+      .then((doc) => {
+        console.log(`confirm order list: ${doc}`);
+
+        res.json({ result: doc });
+      })
+      .catch((err) => {
+        console.error("Error adding user:", err);
+        res.json({ result: "error" });
+      })
+      .finally(() => {
+        // Close the connection after the operation
+        console.log("confirm order list end");
+      });
+  }
+
+  hello(request, response);
+});
+
 //<-------listen at the port 8000----------->
 
 app.listen(PORT, () => {
