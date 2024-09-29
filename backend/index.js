@@ -95,7 +95,7 @@ app.post("/order", async (request, response) => {
       data.order.forEach((element, index) => {
         console.log("====", index);
         const newOrder = new Order({
-          product: data.order,
+          product: element,
           address: data.address,
           status: "On the way",
           date: data.date,
