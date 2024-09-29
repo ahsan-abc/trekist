@@ -159,9 +159,9 @@
         pincode != "" &&
         localadd != ""
       ) {
-        function getRecipes(product) {
+        function getRecipes(products) {
           let data = {
-            order: product, // Assuming `order` is defined elsewhere
+            order: products, // Assuming `order` is defined elsewhere
             address: {
               name: name, // Assuming these are defined elsewhere
               mob: mob,
@@ -184,39 +184,42 @@
           // Fetch request to the backend
           fetch("http://localhost:8000/order", options)
             .then((response) => {
-              // Check if the response is OK (status 200-299)
-
               if (!response.ok) {
                 console.error("Response error:", response);
                 return;
               }
 
               // Parse the response JSON and return it to the next .then()
-              return response.text();
+              console.log("tyoe", typeof response);
+              console.log("do", response);
+              return response.json();
             })
             .then((result) => {
               // Log the result from the backend (e.g., { ids: [...] })
               console.log("Response from backend:", result);
 
-              if (result != "error") {
-                let orderconfirm = localStorage.getItem("orderconfirm");
+              if (result.result != "error") {
+                result.result.forEach((element) => {
+                  let orderconfirm = localStorage.getItem("orderconfirm");
 
-                if (orderconfirm == [] || orderconfirm == null) {
-                  orderconfirm = [result];
-                } else {
-                  orderconfirm = JSON.parse(orderconfirm);
-                  orderconfirm[orderconfirm.length] = result;
-                }
-                localStorage.setItem(
-                  "orderconfirm",
-                  JSON.stringify(orderconfirm)
-                );
+                  if (orderconfirm == [] || orderconfirm == null) {
+                    orderconfirm = [element];
+                  } else {
+                    orderconfirm = JSON.parse(orderconfirm);
+                    orderconfirm[orderconfirm.length] = element;
+                  }
+                  localStorage.setItem(
+                    "orderconfirm",
+                    JSON.stringify(orderconfirm)
+                  );
+                });
 
-                setTimeout(() => {
-                  window.location.href = "./myorder.html";
-                }, 3000);
+                alert("Order Placed successfully");
+                window.location.href = "./myorder.html";
               } else {
                 console.log("order error ");
+                alert("error in order process , try again");
+                window.location.href = "./order.html";
               }
             })
             .catch((error) => {
@@ -225,9 +228,8 @@
         }
 
         // Call the function
-        order.products.forEach((element) => {
-          getRecipes(element);
-        });
+
+        getRecipes(order.products);
       } else {
         console.log("fill your form");
       }

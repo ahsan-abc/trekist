@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyparser = require("body-parser");
 const dotenv = require("dotenv");
+const { setTimeout } = require("timers/promises");
 dotenv.config();
 const PORT = process.env.PORT || 3030;
 
@@ -85,30 +86,50 @@ app.post("/order", async (request, response) => {
 
     const data = await req.body;
     console.log(data.order);
-    /////////////////////////////////
 
-    const newOrder = new Order({
-      product: data.order,
-      address: data.address,
-      status: "On the way",
-      date: data.date,
-    });
-    // Save the new user to the database
-    newOrder
-      .save()
-      .then((doc) => {
-        console.log(`New user added: ${doc}`);
-        res.send(doc._id);
-      })
-      .catch((err) => {
-        console.error("Error adding user:", err);
-        res.send("error");
-      })
-      .finally(() => {
-        // Close the connection after the operation
-        console.log("order process end");
-      });
+    /////////////////////////////////
+    let result = Array(data.order).fill("null");
+    console.log("dataorder", typeof data.order);
+
+    setTimeout(
+      data.order.forEach((element, index) => {
+        console.log("====", index);
+        const newOrder = new Order({
+          product: data.order,
+          address: data.address,
+          status: "On the way",
+          date: data.date,
+        });
+        // Save the new user to the database
+        newOrder
+          .save()
+          .then((doc) => {
+            console.log(`New user added: ${doc}`);
+            result[index] = doc._id;
+
+            function check() {
+              for (let i = 0; i < data.order.length; i++) {
+                if (result[i] == "null") return false;
+                else return true;
+              }
+            }
+            if (check() == true) res.json({ result: result });
+
+            console.log("++++++++++", result);
+          })
+          .catch((err) => {
+            console.error("Error adding user:", err);
+            res.json({ result: "error" });
+          })
+          .finally(() => {
+            // Close the connection after the operation
+            console.log("order process end");
+          });
+      }),
+      1000
+    );
   }
+
   hello(request, response);
 });
 
