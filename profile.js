@@ -177,12 +177,12 @@ function cart_add_effect() {
 document.getElementById("buy-button").addEventListener("click", () => {
   document.getElementById("buy-button").style.color = "black";
   document.getElementById("buy-button").style.background = "white";
-  document.getElementById("buy-button").innerText = "Wait..";
+  document.getElementById("buy-button").innerText = "wait..";
 
   window.setTimeout(() => {
-    document.getElementById("cart-button").style.color = "white";
-    document.getElementById("cart-button").style.background = "black";
-    document.getElementById("cart-button").innerText = "Buy";
+    document.getElementById("buy-button").style.color = "white";
+    document.getElementById("buy-button").style.background = "black";
+    document.getElementById("buy-button").innerText = "Buy";
   }, 1000);
   let product = JSON.parse(localStorage.getItem("profile_data"));
 
