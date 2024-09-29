@@ -30,10 +30,10 @@
     /////////////
     if (orderconfirm != null && orderconfirm != 0) {
 
-      document.getElementById(
+      /*document.getElementById(
         "confirm-orders"
       ).innerHTML = `<div style="width:100% ; height:100%; display:flex; justify-content: center;
-    align-items: center; class= ".loader"></div>`;
+    align-items: center; class= ".loader"></div>`;*/
     
       let options = {
         method: "POST",
@@ -45,7 +45,7 @@
 
       // Fetch request to the backend
       //fetch("http://localhost:8000/order", options)
-      fetch("http://localhost:8000/confirmorder", options)
+      fetch("https://trekist.onrender.com/confirmorder", options)
         .then((response) => {
           if (!response.ok) {
             console.error("Response error:", response);
