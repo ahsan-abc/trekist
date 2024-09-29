@@ -182,7 +182,8 @@
           };
 
           // Fetch request to the backend
-          fetch("http://localhost:8000/order", options)
+          //fetch("http://localhost:8000/order", options)
+          fetch("https://trekist.onrender.com/order", options)
             .then((response) => {
               if (!response.ok) {
                 console.error("Response error:", response);
