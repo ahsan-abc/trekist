@@ -178,16 +178,16 @@ document.getElementById("buy-button").addEventListener("click", () => {
   document.getElementById("buy-button").style.color = "black";
   document.getElementById("buy-button").style.background = "white";
   document.getElementById("buy-button").innerText = "wait..";
-
-  window.setTimeout(() => {
-    document.getElementById("buy-button").style.color = "white";
-    document.getElementById("buy-button").style.background = "black";
-    document.getElementById("buy-button").innerText = "Buy";
-  }, 1000);
   let product = JSON.parse(localStorage.getItem("profile_data"));
 
   let myorder = { products: [product], amount: product.price };
 
   localStorage.setItem("myorder", JSON.stringify(myorder));
-  window.location.href = "./order.html";
+
+  window.setTimeout(() => {
+    document.getElementById("buy-button").style.color = "white";
+    document.getElementById("buy-button").style.background = "black";
+    document.getElementById("buy-button").innerText = "Buy";
+    window.location.href = "./order.html";
+  }, 1000);
 });
